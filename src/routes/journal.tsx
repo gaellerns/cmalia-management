@@ -75,7 +75,7 @@ function JournalPage() {
         <SectionHead n="Tous les textes" label="Cinq autres notes" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5">
           {rest.map((a) => (
-            <a key={a.n} href="#" className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col justify-between min-h-[320px]">
+            <Link key={a.slug} to="/journal/$slug" params={{ slug: a.slug }} className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col justify-between min-h-[320px]">
               <div className="flex justify-between items-baseline font-mono text-[10px] uppercase tracking-widest">
                 <span className="text-accent group-hover:text-accent-foreground">{a.tag}</span>
                 <span className="opacity-50 group-hover:opacity-100">{a.date}</span>
@@ -88,7 +88,7 @@ function JournalPage() {
                 <span className="opacity-50 group-hover:opacity-100">{a.read} de lecture</span>
                 <span className="text-accent group-hover:text-accent-foreground">→</span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </section>
