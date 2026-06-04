@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link, Outlet, useLocation } from "@tanstack/react-router";
 import { SiteShell, SectionHead } from "@/components/site-shell";
 import { Tilt } from "@/components/cmalia-universe";
 import { articles } from "@/lib/journal-articles";
@@ -12,10 +12,20 @@ export const Route = createFileRoute("/journal")({
       { property: "og:description", content: "Notes, réflexions et coulisses." },
     ],
   }),
-  component: JournalPage,
+  component: JournalRouteComponent,
 });
 
 
+
+function JournalRouteComponent() {
+  const { pathname } = useLocation();
+
+  if (pathname !== "/journal") {
+    return <Outlet />;
+  }
+
+  return <JournalPage />;
+}
 
 function JournalPage() {
   const [featured, ...rest] = articles;
