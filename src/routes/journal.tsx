@@ -1,8 +1,7 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell, SectionHead } from "@/components/site-shell";
 import { Tilt } from "@/components/cmalia-universe";
-import workCyborg from "@/assets/work-cyborg.jpg";
-import workBrutalist from "@/assets/work-brutalist.jpg";
+import { articles } from "@/lib/journal-articles";
 
 export const Route = createFileRoute("/journal")({
   head: () => ({
@@ -16,63 +15,7 @@ export const Route = createFileRoute("/journal")({
   component: JournalPage,
 });
 
-const articles = [
-  {
-    n: "01",
-    tag: "Éditorial",
-    t: "Le silence stratégique : poster moins, dire plus.",
-    excerpt: "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
-    date: "12 Nov 2024",
-    read: "6 min",
-    img: workCyborg,
-    featured: true,
-  },
-  {
-    n: "02",
-    tag: "Identité",
-    t: "Pourquoi votre marque mérite mieux qu'un calendrier éditorial.",
-    excerpt: "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
-    date: "29 Oct 2024",
-    read: "4 min",
-    img: workBrutalist,
-  },
-  {
-    n: "03",
-    tag: "Coulisses",
-    t: "Une journée typique au studio.",
-    excerpt: "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
-    date: "14 Oct 2024",
-    read: "3 min",
-    img: workCyborg,
-  },
-  {
-    n: "04",
-    tag: "Veille",
-    t: "Les comptes qui m'inspirent en ce moment.",
-    excerpt: "Cinq comptes Instagram qui font les choses bien — et ce qu'on peut en apprendre.",
-    date: "30 Sept 2024",
-    read: "5 min",
-    img: workBrutalist,
-  },
-  {
-    n: "05",
-    tag: "Méthode",
-    t: "Refuser un projet n'est pas un luxe, c'est une discipline.",
-    excerpt: "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
-    date: "12 Sept 2024",
-    read: "4 min",
-    img: workCyborg,
-  },
-  {
-    n: "06",
-    tag: "Éditorial",
-    t: "L'IA dans la création de contenu : ce que je refuse, ce que j'accepte.",
-    excerpt: "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
-    date: "20 Août 2024",
-    read: "7 min",
-    img: workBrutalist,
-  },
-];
+
 
 function JournalPage() {
   const [featured, ...rest] = articles;
@@ -99,7 +42,7 @@ function JournalPage() {
 
       {/* Featured */}
       <section className="px-6 py-12">
-        <a href="#" className="grid grid-cols-1 md:grid-cols-12 gap-8 group">
+        <Link to="/journal/$slug" params={{ slug: featured.slug }} className="grid grid-cols-1 md:grid-cols-12 gap-8 group">
           <div className="md:col-span-7">
             <Tilt max={5}>
               <div className="aspect-[16/10] overflow-hidden ring-1 ring-white/5 relative">
@@ -124,7 +67,7 @@ function JournalPage() {
               Lire l'article <span className="inline-block group-hover:translate-x-2 transition-transform">→</span>
             </span>
           </div>
-        </a>
+        </Link>
       </section>
 
       {/* Grid */}
@@ -132,7 +75,7 @@ function JournalPage() {
         <SectionHead n="Tous les textes" label="Cinq autres notes" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5">
           {rest.map((a) => (
-            <a key={a.n} href="#" className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col justify-between min-h-[320px]">
+            <Link key={a.slug} to="/journal/$slug" params={{ slug: a.slug }} className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col justify-between min-h-[320px]">
               <div className="flex justify-between items-baseline font-mono text-[10px] uppercase tracking-widest">
                 <span className="text-accent group-hover:text-accent-foreground">{a.tag}</span>
                 <span className="opacity-50 group-hover:opacity-100">{a.date}</span>
@@ -145,7 +88,7 @@ function JournalPage() {
                 <span className="opacity-50 group-hover:opacity-100">{a.read} de lecture</span>
                 <span className="text-accent group-hover:text-accent-foreground">→</span>
               </div>
-            </a>
+            </Link>
           ))}
         </div>
       </section>
