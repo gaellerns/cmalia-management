@@ -42,7 +42,7 @@ function JournalPage() {
 
       {/* Featured */}
       <section className="px-6 py-12">
-        <a href="#" className="grid grid-cols-1 md:grid-cols-12 gap-8 group">
+        <Link to="/journal/$slug" params={{ slug: featured.slug }} className="grid grid-cols-1 md:grid-cols-12 gap-8 group">
           <div className="md:col-span-7">
             <Tilt max={5}>
               <div className="aspect-[16/10] overflow-hidden ring-1 ring-white/5 relative">
