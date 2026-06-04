@@ -67,7 +67,7 @@ function JournalPage() {
               Lire l'article <span className="inline-block group-hover:translate-x-2 transition-transform">→</span>
             </span>
           </div>
-        </a>
+        </Link>
       </section>
 
       {/* Grid */}
