@@ -32,7 +32,7 @@ export const articles: Article[] = [
       "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
     date: "12 Nov 2024",
     read: "2 min",
-    img: workCyborg,
+    img: silenceStrategique,
     featured: true,
     intro:
       "Il y a, dans la plupart des marques que je rencontre, une peur très étrange : celle de disparaître si elles ne publient pas. Trois posts par semaine. Une story par jour. Un reel dès qu'un trend passe. Et au bout d'un an, plus personne ne sait vraiment ce que la marque raconte — y compris elle-même.",
@@ -157,7 +157,7 @@ export const articles: Article[] = [
       "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
     date: "14 Oct 2024",
     read: "1 min",
-    img: workCyborg,
+    img: silenceStrategique,
     intro:
       "On me demande souvent à quoi ressemble une journée quand on travaille seule, depuis Marseille, sans équipe et sans bureau partagé. Voilà, sans filtre.",
     body: [
@@ -261,7 +261,7 @@ export const articles: Article[] = [
       "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
     date: "12 Sept 2024",
     read: "1 min",
-    img: workCyborg,
+    img: silenceStrategique,
     intro:
       "On m'écrit chaque semaine. Je dis non, souvent. Pas par arrogance — par cohérence avec ce que CMALIA prétend être : un studio qui travaille avec peu, et bien.",
     body: [
