@@ -1,3 +1,4 @@
+import journalHero from "@/assets/journal-hero.png";
 import silenceStrategique from "@/assets/silence-strategique.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 
@@ -27,12 +28,12 @@ export const articles: Article[] = [
     slug: "silence-strategique",
     n: "01",
     tag: "Éditorial",
-    t: "Le silence stratégique : poster moins, dire plus.",
+    t: "LE SILENCE STRATÉGIQUE : POSTER MOINS, DIRE PLUS.",
     excerpt:
       "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
     date: "12 DÉC 2025",
     read: "2 MIN",
-    img: silenceStrategique,
+    img: journalHero,
     featured: true,
     intro:
       "IL Y A, DANS LA PLUPART DES MARQUES QUE JE RENCONTRE, UNE PEUR TRÈS ÉTRANGE : CELLE DE DISPARAÎTRE SI ELLES NE PUBLIENT PAS TROIS POSTS PAR SEMAINE, UNE STORY PAR JOUR, UN REEL DÈS QU'UNE TREND PASSE. ET AU BOUT D'UN AN, PLUS PERSONNE NE SAIT VRAIMENT CE QUE LA MARQUE RACONTE, Y COMPRIS ELLE-MÊME.",
@@ -152,7 +153,7 @@ export const articles: Article[] = [
     slug: "une-journee-au-studio",
     n: "03",
     tag: "Coulisses",
-    t: "Une journée typique au studio.",
+    t: "UNE JOURNÉE TYPIQUE AU STUDIO.",
     excerpt:
       "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
     date: "16 FÉV 2026",
@@ -201,7 +202,7 @@ export const articles: Article[] = [
     slug: "comptes-qui-minspirent",
     n: "04",
     tag: "Veille",
-    t: "Les comptes qui m'inspirent en ce moment.",
+    t: "LES COMPTES QUI M'INSPIRENT EN CE MOMENT.",
     excerpt:
       "Cinq comptes Instagram qui font les choses bien — et ce qu'on peut en apprendre.",
     date: "15 MAR 2026",
@@ -256,7 +257,7 @@ export const articles: Article[] = [
     slug: "refuser-un-projet",
     n: "05",
     tag: "Méthode",
-    t: "Refuser un projet n'est pas un luxe, c'est une discipline.",
+    t: "REFUSER UN PROJET N'EST PAS UN LUXE, C'EST UNE DISCIPLINE.",
     excerpt:
       "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
     date: "12 AVR 2026",
@@ -302,7 +303,7 @@ export const articles: Article[] = [
     slug: "ia-et-creation-de-contenu",
     n: "06",
     tag: "Éditorial",
-    t: "L'IA dans la création de contenu : ce que je refuse, ce que j'accepte.",
+    t: "L'IA DANS LA CREATION DE CONTENU : CE QUE JE REFUSE, CE QUE J'ACCEPTE.",
     excerpt:
       "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
     date: "20 MAI 2026",
