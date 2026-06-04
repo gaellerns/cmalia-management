@@ -303,7 +303,7 @@ export const articles: Article[] = [
     slug: "ia-et-creation-de-contenu",
     n: "06",
     tag: "Éditorial",
-    t: "L'IA DANS LA CREATION DE CONTENU : CE QUE JE REFUSE, CE QUE J'ACCEPTE.",
+    t: "L'IA DANS LA CRÉATION DE CONTENU : CE QUE JE REFUSE, CE QUE J'ACCEPTE.",
     excerpt:
       "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
     date: "20 MAI 2026",
