@@ -64,17 +64,18 @@ function JournalPage() {
             </Tilt>
           </div>
           <div className="md:col-span-5 flex flex-col justify-end space-y-6">
-            <div className="flex items-center gap-6 font-mono text-[10px] uppercase tracking-widest">
+            <div className="flex flex-col gap-1 font-mono text-[10px] uppercase tracking-widest">
               <span className="text-accent">{featured.tag}</span>
-              <span className="opacity-50">{featured.date}</span>
+              <span className="opacity-50">12 DÉCEMBRE 2025</span>
               <span className="opacity-50">· {featured.read}</span>
             </div>
             <h2 className="font-display text-4xl md:text-6xl uppercase tracking-tighter leading-[0.95] group-hover:text-accent transition-colors">
               {featured.t}
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">{featured.excerpt}</p>
-            <span className="font-mono text-xs uppercase tracking-widest text-accent inline-flex items-center gap-3">
-              Lire l'article <span className="inline-block group-hover:translate-x-2 transition-transform">→</span>
+            <span className="font-mono text-xs uppercase tracking-widest text-accent flex flex-col items-start gap-1">
+              <span>LIRE L'ARTICLE</span>
+              <span className="inline-block group-hover:translate-x-2 transition-transform">→</span>
             </span>
           </div>
         </Link>
@@ -85,17 +86,17 @@ function JournalPage() {
         <SectionHead n="Tous les textes" label="Cinq autres notes" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5">
           {rest.map((a) => (
-            <Link key={a.slug} to="/journal/$slug" params={{ slug: a.slug }} className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col justify-between min-h-[320px]">
-              <div className="flex justify-between items-baseline font-mono text-[10px] uppercase tracking-widest">
+            <Link key={a.slug} to="/journal/$slug" params={{ slug: a.slug }} className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col justify-between min-h-[400px]">
+              <div className="flex flex-col gap-1 font-mono text-[10px] uppercase tracking-widest">
                 <span className="text-accent group-hover:text-accent-foreground">{a.tag}</span>
                 <span className="opacity-50 group-hover:opacity-100">{a.date}</span>
               </div>
-              <div className="space-y-4 my-12">
+              <div className="space-y-6 my-10">
                 <p className="font-display text-2xl uppercase leading-[0.95] tracking-tight">{a.t}</p>
                 <p className="text-sm text-muted-foreground leading-relaxed group-hover:text-accent-foreground/85">{a.excerpt}</p>
               </div>
-              <div className="flex justify-between font-mono text-[10px] uppercase tracking-widest">
-                <span className="opacity-50 group-hover:opacity-100">{a.read} de lecture</span>
+              <div className="flex flex-col gap-1 font-mono text-[10px] uppercase tracking-widest mt-auto">
+                <span className="opacity-50 group-hover:opacity-100">{a.read}</span>
                 <span className="text-accent group-hover:text-accent-foreground">→</span>
               </div>
             </Link>
@@ -110,8 +111,8 @@ function JournalPage() {
           <h2 className="font-display text-5xl md:text-7xl uppercase tracking-tighter leading-[0.9]">
             Une note <br /> par <span className="italic font-[Instrument_Serif] not-italic-fallback">mois.</span>
           </h2>
-          <p className="text-muted-foreground max-w-md mx-auto">
-            Pas de séquence, pas de funnel, pas de scarcity bidon. Une note par mois — quand il y a quelque chose à dire.
+          <p className="text-muted-foreground max-w-md mx-auto whitespace-pre-line">
+            Pas de séquence, pas de funnel.{"\n"}Une note par mois, quand il y a quelque chose à dire.
           </p>
           <form className="flex max-w-md mx-auto border-b border-white/20 focus-within:border-accent transition-colors">
             <input type="email" placeholder="ton.email@bien-fait.fr" className="flex-1 bg-transparent border-0 outline-none py-3 text-lg font-light placeholder:text-muted-foreground/40" />

@@ -30,7 +30,7 @@ export const articles: Article[] = [
     t: "Le silence stratégique : poster moins, dire plus.",
     excerpt:
       "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
-    date: "04 JUIN 2026",
+    date: "12 DÉC 2025",
     read: "2 MIN",
     img: silenceStrategique,
     featured: true,
@@ -98,8 +98,8 @@ export const articles: Article[] = [
     t: "Pourquoi votre marque mérite mieux qu'un calendrier éditorial.",
     excerpt:
       "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
-    date: "29 Oct 2024",
-    read: "1 min",
+    date: "09 JAN 2026",
+    read: "1 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "Le calendrier éditorial est devenu la première chose qu'on vend aux marques. C'est rassurant, ça se met dans un Notion, ça se coche. Et pourtant, c'est presque toujours l'étape qu'il faudrait faire en dernier.",
@@ -155,8 +155,8 @@ export const articles: Article[] = [
     t: "Une journée typique au studio.",
     excerpt:
       "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
-    date: "14 Oct 2024",
-    read: "1 min",
+    date: "16 FÉV 2026",
+    read: "1 MIN DE LECTURE",
     img: silenceStrategique,
     intro:
       "On me demande souvent à quoi ressemble une journée quand on travaille seule, depuis Marseille, sans équipe et sans bureau partagé. Voilà, sans filtre.",
@@ -204,8 +204,8 @@ export const articles: Article[] = [
     t: "Les comptes qui m'inspirent en ce moment.",
     excerpt:
       "Cinq comptes Instagram qui font les choses bien — et ce qu'on peut en apprendre.",
-    date: "30 Sept 2024",
-    read: "2 min",
+    date: "15 MAR 2026",
+    read: "2 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "Je ne suis pas beaucoup de comptes. Trois cents, peut-être. Mais ceux que je garde, je les garde longtemps. Voici cinq d'entre eux, choisis pour ce qu'ils nous apprennent — pas seulement parce qu'ils sont beaux.",
@@ -259,8 +259,8 @@ export const articles: Article[] = [
     t: "Refuser un projet n'est pas un luxe, c'est une discipline.",
     excerpt:
       "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
-    date: "12 Sept 2024",
-    read: "1 min",
+    date: "12 AVR 2026",
+    read: "1 MIN DE LECTURE",
     img: silenceStrategique,
     intro:
       "On m'écrit chaque semaine. Je dis non, souvent. Pas par arrogance — par cohérence avec ce que CMALIA prétend être : un studio qui travaille avec peu, et bien.",
