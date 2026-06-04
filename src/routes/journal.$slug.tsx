@@ -149,7 +149,7 @@ function ArticlePage() {
         {/* Signature */}
         <div className="mt-20 pt-8 border-t border-white/10 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest opacity-50">
           <span>GAËLLE · MARSEILLE</span>
-          <span>JUIN 2026</span>
+          <span>DÉC 2025</span>
         </div>
       </article>
 
