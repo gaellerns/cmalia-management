@@ -1,3 +1,4 @@
+import journalHero from "@/assets/journal-hero.png";
 import silenceStrategique from "@/assets/silence-strategique.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 
@@ -27,12 +28,12 @@ export const articles: Article[] = [
     slug: "silence-strategique",
     n: "01",
     tag: "Éditorial",
-    t: "Le silence stratégique : poster moins, dire plus.",
+    t: "LE SILENCE STRATÉGIQUE : POSTER MOINS, DIRE PLUS.",
     excerpt:
       "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
-    date: "04 JUIN 2026",
+    date: "12 DÉC 2025",
     read: "2 MIN",
-    img: silenceStrategique,
+    img: journalHero,
     featured: true,
     intro:
       "IL Y A, DANS LA PLUPART DES MARQUES QUE JE RENCONTRE, UNE PEUR TRÈS ÉTRANGE : CELLE DE DISPARAÎTRE SI ELLES NE PUBLIENT PAS TROIS POSTS PAR SEMAINE, UNE STORY PAR JOUR, UN REEL DÈS QU'UNE TREND PASSE. ET AU BOUT D'UN AN, PLUS PERSONNE NE SAIT VRAIMENT CE QUE LA MARQUE RACONTE, Y COMPRIS ELLE-MÊME.",
@@ -98,8 +99,8 @@ export const articles: Article[] = [
     t: "Pourquoi votre marque mérite mieux qu'un calendrier éditorial.",
     excerpt:
       "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
-    date: "29 Oct 2024",
-    read: "1 min",
+    date: "09 JAN 2026",
+    read: "1 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "Le calendrier éditorial est devenu la première chose qu'on vend aux marques. C'est rassurant, ça se met dans un Notion, ça se coche. Et pourtant, c'est presque toujours l'étape qu'il faudrait faire en dernier.",
@@ -152,11 +153,11 @@ export const articles: Article[] = [
     slug: "une-journee-au-studio",
     n: "03",
     tag: "Coulisses",
-    t: "Une journée typique au studio.",
+    t: "UNE JOURNÉE TYPIQUE AU STUDIO.",
     excerpt:
       "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
-    date: "14 Oct 2024",
-    read: "1 min",
+    date: "16 FÉV 2026",
+    read: "1 MIN DE LECTURE",
     img: silenceStrategique,
     intro:
       "On me demande souvent à quoi ressemble une journée quand on travaille seule, depuis Marseille, sans équipe et sans bureau partagé. Voilà, sans filtre.",
@@ -201,11 +202,11 @@ export const articles: Article[] = [
     slug: "comptes-qui-minspirent",
     n: "04",
     tag: "Veille",
-    t: "Les comptes qui m'inspirent en ce moment.",
+    t: "LES COMPTES QUI M'INSPIRENT EN CE MOMENT.",
     excerpt:
       "Cinq comptes Instagram qui font les choses bien — et ce qu'on peut en apprendre.",
-    date: "30 Sept 2024",
-    read: "2 min",
+    date: "15 MAR 2026",
+    read: "2 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "Je ne suis pas beaucoup de comptes. Trois cents, peut-être. Mais ceux que je garde, je les garde longtemps. Voici cinq d'entre eux, choisis pour ce qu'ils nous apprennent — pas seulement parce qu'ils sont beaux.",
@@ -256,11 +257,11 @@ export const articles: Article[] = [
     slug: "refuser-un-projet",
     n: "05",
     tag: "Méthode",
-    t: "Refuser un projet n'est pas un luxe, c'est une discipline.",
+    t: "REFUSER UN PROJET N'EST PAS UN LUXE, C'EST UNE DISCIPLINE.",
     excerpt:
       "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
-    date: "12 Sept 2024",
-    read: "1 min",
+    date: "12 AVR 2026",
+    read: "1 MIN DE LECTURE",
     img: silenceStrategique,
     intro:
       "On m'écrit chaque semaine. Je dis non, souvent. Pas par arrogance — par cohérence avec ce que CMALIA prétend être : un studio qui travaille avec peu, et bien.",
@@ -302,11 +303,11 @@ export const articles: Article[] = [
     slug: "ia-et-creation-de-contenu",
     n: "06",
     tag: "Éditorial",
-    t: "L'IA dans la création de contenu : ce que je refuse, ce que j'accepte.",
+    t: "L'IA DANS LA CRÉATION DE CONTENU : CE QUE JE REFUSE, CE QUE J'ACCEPTE.",
     excerpt:
       "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
-    date: "20 Août 2024",
-    read: "2 min",
+    date: "20 MAI 2026",
+    read: "2 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "On me pose la question de plus en plus souvent, alors je préfère y répondre une fois, clairement, plutôt que d'esquiver à chaque rendez-vous. Voici, sans posture, comment je travaille avec — et surtout sans — les outils génératifs.",
