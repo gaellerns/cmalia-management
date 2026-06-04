@@ -115,13 +115,13 @@ function ArticlePage() {
           to="/journal"
           className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-[0.3em] text-muted-foreground hover:text-accent transition-colors mb-12"
         >
-          ← Retour au journal
+          ← RETOUR AU JOURNAL
         </Link>
         <div className="flex flex-wrap items-center gap-6 font-mono text-[10px] uppercase tracking-widest mb-8">
           <span className="text-accent">{article.tag}</span>
-          <span className="opacity-50">{article.date}</span>
-          <span className="opacity-50">· {article.read} de lecture</span>
-          <span className="opacity-50">· N°{article.n}</span>
+          <span className="opacity-50">12 DÉCEMBRE 2025</span>
+          <span className="opacity-50">· 2 MIN DE LECTURE</span>
+          <span className="opacity-50">· N°01</span>
         </div>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-[0.9]">
           {article.t}
@@ -148,8 +148,8 @@ function ArticlePage() {
 
         {/* Signature */}
         <div className="mt-20 pt-8 border-t border-white/10 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest opacity-50">
-          <span>Gaëlle · Marseille</span>
-          <span>{article.date}</span>
+          <span>GAËLLE · MARSEILLE</span>
+          <span>DÉC 2025</span>
         </div>
       </article>
 
@@ -192,18 +192,18 @@ function ArticlePage() {
       {/* CTA */}
       <section className="px-6 py-32 bg-surface border-y border-white/5">
         <div className="max-w-3xl mx-auto text-center space-y-8">
-          <div className="font-mono text-[10px] uppercase tracking-[0.4em] text-accent">Et si on en parlait ?</div>
+          <div className="font-mono text-[10px] uppercase tracking-[0.4em] text-accent">ET SI ON EN PARLAIT ?</div>
           <h2 className="font-display text-4xl md:text-6xl uppercase tracking-tighter leading-[0.9]">
-            Ce texte vous a <span className="text-stroke italic">parlé</span> ?
+            CE TEXTE VOUS A <span className="text-stroke italic">PARLÉ</span> ?
           </h2>
           <p className="text-muted-foreground max-w-md mx-auto">
-            Si ce que vous venez de lire ressemble à ce que vous cherchez pour votre marque — écrivez. On verra si c'est un oui.
+            Si ce que vous venez de lire ressemble à ce que vous cherchez pour votre marque, alors écrivez-moi un petit message. Et pour la suite ? On verra.
           </p>
           <Link
             to="/contact"
             className="inline-block font-mono text-xs uppercase tracking-widest border border-foreground/20 px-8 py-4 hover:bg-accent hover:border-accent hover:text-accent-foreground transition-all"
           >
-            Écrire au studio →
+            ÉCRIRE AU STUDIO →
           </Link>
         </div>
       </section>

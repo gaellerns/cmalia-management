@@ -1,4 +1,4 @@
-import workCyborg from "@/assets/work-cyborg.jpg";
+import silenceStrategique from "@/assets/silence-strategique.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 
 export type Block =
@@ -30,30 +30,30 @@ export const articles: Article[] = [
     t: "Le silence stratégique : poster moins, dire plus.",
     excerpt:
       "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
-    date: "12 Nov 2024",
-    read: "2 min",
-    img: workCyborg,
+    date: "04 JUIN 2026",
+    read: "2 MIN",
+    img: silenceStrategique,
     featured: true,
     intro:
-      "Il y a, dans la plupart des marques que je rencontre, une peur très étrange : celle de disparaître si elles ne publient pas. Trois posts par semaine. Une story par jour. Un reel dès qu'un trend passe. Et au bout d'un an, plus personne ne sait vraiment ce que la marque raconte — y compris elle-même.",
+      "IL Y A, DANS LA PLUPART DES MARQUES QUE JE RENCONTRE, UNE PEUR TRÈS ÉTRANGE : CELLE DE DISPARAÎTRE SI ELLES NE PUBLIENT PAS TROIS POSTS PAR SEMAINE, UNE STORY PAR JOUR, UN REEL DÈS QU'UNE TREND PASSE. ET AU BOUT D'UN AN, PLUS PERSONNE NE SAIT VRAIMENT CE QUE LA MARQUE RACONTE, Y COMPRIS ELLE-MÊME.",
     body: [
       {
         type: "p",
         text:
           "Je travaille avec une poignée de marques, créateurs et indépendants. Aucun n'a jamais grandi parce qu'il publiait plus. Tous ont grandi parce qu'à un moment donné, ils ont arrêté de publier pour publier.",
       },
-      { type: "h2", text: "Le bruit n'est pas une preuve de travail." },
+      { type: "h2", text: "LE BRUIT N'EST PAS UNE PREUVE DE TRAVAIL." },
       {
         type: "p",
         text:
-          "Le rythme rassure, surtout le rythme régulier. Trois fois par semaine, ça sonne sérieux. Ça sonne pro. Ça donne l'impression qu'il se passe quelque chose. Mais une fréquence n'est pas une voix. Un calendrier n'est pas une ligne. Et un compte qui parle sans cesse pour ne rien dire finit par devenir un bruit de fond — y compris pour ses abonnés les plus fidèles.",
+          "Le rythme rassure, surtout le rythme régulier. Trois fois par semaine, ça sonne sérieux. Ça sonne pro. Ça donne l'impression qu'il se passe quelque chose. Mais une fréquence n'est pas une voix. Un calendrier n'est pas une ligne. Et un compte qui parle sans cesse pour ne rien dire finit par devenir un bruit de fond, notamment pour ses abonnés les plus fidèles.",
       },
       {
         type: "p",
         text:
           "La marque qui me fait revenir, ce n'est pas celle qui poste tous les jours. C'est celle qui, quand elle poste, m'oblige à m'arrêter trois secondes. Ces trois secondes valent plus que sept stories oubliées dans la journée.",
       },
-      { type: "h2", text: "Le silence stratégique, ce n'est pas l'absence." },
+      { type: "h2", text: "LE SILENCE STRATÉGIQUE, CE N'EST PAS L'ABSENCE." },
       {
         type: "p",
         text:
@@ -62,20 +62,20 @@ export const articles: Article[] = [
       {
         type: "quote",
         text:
-          "Le silence stratégique, c'est l'inverse du growth hack. C'est croire que ce que tu vas dire mérite qu'on l'attende.",
+          "« LE SILENCE STRATÉGIQUE, C'EST L'INVERSE DU GROWTH HACK. C'EST CROIRE QUE CE QUE TU VAS DIRE MÉRITE QU'ON L'ATTENDE. »",
       },
       {
         type: "p",
         text:
-          "Concrètement, dans la plupart de mes accompagnements, on commence par baisser le rythme. Pas pour faire moins. Pour faire mieux. On enlève d'abord ce qui ne sert pas la ligne, avant d'ajouter quoi que ce soit. Et presque toujours, l'engagement remonte. Pas parce qu'on a trouvé le bon trend — parce qu'on a arrêté de diluer.",
+          "Concrètement, dans la plupart de mes accompagnements, on commence par baisser le rythme. Pas pour faire moins. Pour faire mieux. On enlève d'abord ce qui ne sert pas la ligne, avant d'ajouter quoi que ce soit. Et presque toujours, l'engagement remonte. Pas parce qu'on a trouvé la bonne trend, mais parce qu'on a arrêté de diluer.",
       },
-      { type: "h2", text: "Ce que ça change pour la marque." },
+      { type: "h2", text: "CE QUE ÇA CHANGE POUR LA MARQUE." },
       {
         type: "list",
         items: [
           "Chaque publication compte, et donc se travaille.",
           "L'audience comprend ce que la marque défend, parce que la marque s'autorise enfin à le dire clairement.",
-          "Le créateur — humain — arrête d'être épuisé par sa propre communication.",
+          "Le créateur « humain » arrête d'être épuisé par sa propre communication.",
           "On sort du cycle « post / vide / post / vide » qui érode la voix sans qu'on s'en rende compte.",
         ],
       },
@@ -87,7 +87,7 @@ export const articles: Article[] = [
       {
         type: "note",
         text:
-          "Écrit un dimanche soir à Marseille, après une semaine sans avoir rien publié pour CMALIA — et c'était très bien comme ça.",
+          "Écrit un dimanche soir à Marseille, après un mois sans avoir rien publié pour CMalia. Et c'était très bien comme ça.",
       },
     ],
   },
@@ -157,7 +157,7 @@ export const articles: Article[] = [
       "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
     date: "14 Oct 2024",
     read: "1 min",
-    img: workCyborg,
+    img: silenceStrategique,
     intro:
       "On me demande souvent à quoi ressemble une journée quand on travaille seule, depuis Marseille, sans équipe et sans bureau partagé. Voilà, sans filtre.",
     body: [
@@ -261,7 +261,7 @@ export const articles: Article[] = [
       "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
     date: "12 Sept 2024",
     read: "1 min",
-    img: workCyborg,
+    img: silenceStrategique,
     intro:
       "On m'écrit chaque semaine. Je dis non, souvent. Pas par arrogance — par cohérence avec ce que CMALIA prétend être : un studio qui travaille avec peu, et bien.",
     body: [
