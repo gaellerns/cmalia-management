@@ -63,7 +63,7 @@ export const articles: Article[] = [
       {
         type: "quote",
         text:
-          "« LE SILENCE STRATÉGIQUE, C'EST L'INVERSE DU GROWTH HACK. C'EST CROIRE QUE CE QUE TU VAS DIRE MÉRITE QU'ON L'ATTENDE. »",
+          "LE SILENCE STRATÉGIQUE, C'EST L'INVERSE DU GROWTH HACK. C'EST CROIRE QUE CE QUE TU VAS DIRE MÉRITE QU'ON L'ATTENDE.",
       },
       {
         type: "p",
