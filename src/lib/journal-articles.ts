@@ -31,7 +31,7 @@ export const articles: Article[] = [
     excerpt:
       "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
     date: "12 Nov 2024",
-    read: "6 min",
+    read: "2 min",
     img: workCyborg,
     featured: true,
     intro:
@@ -99,7 +99,7 @@ export const articles: Article[] = [
     excerpt:
       "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
     date: "29 Oct 2024",
-    read: "4 min",
+    read: "1 min",
     img: workBrutalist,
     intro:
       "Le calendrier éditorial est devenu la première chose qu'on vend aux marques. C'est rassurant, ça se met dans un Notion, ça se coche. Et pourtant, c'est presque toujours l'étape qu'il faudrait faire en dernier.",
@@ -156,7 +156,7 @@ export const articles: Article[] = [
     excerpt:
       "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
     date: "14 Oct 2024",
-    read: "3 min",
+    read: "1 min",
     img: workCyborg,
     intro:
       "On me demande souvent à quoi ressemble une journée quand on travaille seule, depuis Marseille, sans équipe et sans bureau partagé. Voilà, sans filtre.",
@@ -205,7 +205,7 @@ export const articles: Article[] = [
     excerpt:
       "Cinq comptes Instagram qui font les choses bien — et ce qu'on peut en apprendre.",
     date: "30 Sept 2024",
-    read: "5 min",
+    read: "2 min",
     img: workBrutalist,
     intro:
       "Je ne suis pas beaucoup de comptes. Trois cents, peut-être. Mais ceux que je garde, je les garde longtemps. Voici cinq d'entre eux, choisis pour ce qu'ils nous apprennent — pas seulement parce qu'ils sont beaux.",
@@ -260,7 +260,7 @@ export const articles: Article[] = [
     excerpt:
       "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
     date: "12 Sept 2024",
-    read: "4 min",
+    read: "1 min",
     img: workCyborg,
     intro:
       "On m'écrit chaque semaine. Je dis non, souvent. Pas par arrogance — par cohérence avec ce que CMALIA prétend être : un studio qui travaille avec peu, et bien.",
@@ -306,7 +306,7 @@ export const articles: Article[] = [
     excerpt:
       "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
     date: "20 Août 2024",
-    read: "7 min",
+    read: "2 min",
     img: workBrutalist,
     intro:
       "On me pose la question de plus en plus souvent, alors je préfère y répondre une fois, clairement, plutôt que d'esquiver à chaque rendez-vous. Voici, sans posture, comment je travaille avec — et surtout sans — les outils génératifs.",
