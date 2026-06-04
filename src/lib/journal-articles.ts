@@ -305,8 +305,8 @@ export const articles: Article[] = [
     t: "L'IA dans la création de contenu : ce que je refuse, ce que j'accepte.",
     excerpt:
       "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
-    date: "20 Août 2024",
-    read: "2 min",
+    date: "20 MAI 2026",
+    read: "2 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "On me pose la question de plus en plus souvent, alors je préfère y répondre une fois, clairement, plutôt que d'esquiver à chaque rendez-vous. Voici, sans posture, comment je travaille avec — et surtout sans — les outils génératifs.",
