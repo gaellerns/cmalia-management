@@ -1,8 +1,7 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteShell, SectionHead } from "@/components/site-shell";
 import { Tilt } from "@/components/cmalia-universe";
-import workCyborg from "@/assets/work-cyborg.jpg";
-import workBrutalist from "@/assets/work-brutalist.jpg";
+import { articles } from "@/lib/journal-articles";
 
 export const Route = createFileRoute("/journal")({
   head: () => ({
@@ -16,7 +15,7 @@ export const Route = createFileRoute("/journal")({
   component: JournalPage,
 });
 
-const articles = [
+const _legacy = [
   {
     n: "01",
     tag: "Éditorial",
