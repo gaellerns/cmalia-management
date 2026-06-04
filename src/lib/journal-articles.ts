@@ -1,4 +1,4 @@
-import workCyborg from "@/assets/work-cyborg.jpg";
+import silenceStrategique from "@/assets/silence-strategique.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 
 export type Block =
