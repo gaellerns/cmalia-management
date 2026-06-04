@@ -15,63 +15,7 @@ export const Route = createFileRoute("/journal")({
   component: JournalPage,
 });
 
-const _legacy = [
-  {
-    n: "01",
-    tag: "Éditorial",
-    t: "Le silence stratégique : poster moins, dire plus.",
-    excerpt: "Pourquoi publier trois fois par semaine sans tension vide la marque plus vite que ne rien publier.",
-    date: "12 Nov 2024",
-    read: "6 min",
-    img: workCyborg,
-    featured: true,
-  },
-  {
-    n: "02",
-    tag: "Identité",
-    t: "Pourquoi votre marque mérite mieux qu'un calendrier éditorial.",
-    excerpt: "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
-    date: "29 Oct 2024",
-    read: "4 min",
-    img: workBrutalist,
-  },
-  {
-    n: "03",
-    tag: "Coulisses",
-    t: "Une journée typique au studio.",
-    excerpt: "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
-    date: "14 Oct 2024",
-    read: "3 min",
-    img: workCyborg,
-  },
-  {
-    n: "04",
-    tag: "Veille",
-    t: "Les comptes qui m'inspirent en ce moment.",
-    excerpt: "Cinq comptes Instagram qui font les choses bien — et ce qu'on peut en apprendre.",
-    date: "30 Sept 2024",
-    read: "5 min",
-    img: workBrutalist,
-  },
-  {
-    n: "05",
-    tag: "Méthode",
-    t: "Refuser un projet n'est pas un luxe, c'est une discipline.",
-    excerpt: "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
-    date: "12 Sept 2024",
-    read: "4 min",
-    img: workCyborg,
-  },
-  {
-    n: "06",
-    tag: "Éditorial",
-    t: "L'IA dans la création de contenu : ce que je refuse, ce que j'accepte.",
-    excerpt: "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
-    date: "20 Août 2024",
-    read: "7 min",
-    img: workBrutalist,
-  },
-];
+
 
 function JournalPage() {
   const [featured, ...rest] = articles;
