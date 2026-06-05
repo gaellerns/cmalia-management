@@ -152,8 +152,8 @@ function ArticlePage() {
 
         {/* Signature */}
         <div className="mt-20 pt-8 border-t border-white/10 flex flex-col gap-1 font-mono text-[10px] uppercase tracking-widest opacity-50">
-          <span>GAËLLE · MARSEILLE · PARTOUT AILLEURS</span>
-          <span>SITE FAIT MAIN · SANS GROWTH HACK</span>
+          <span>GAËLLE · MARSEILLE</span>
+          <span>&nbsp;</span>
         </div>
       </article>
 
