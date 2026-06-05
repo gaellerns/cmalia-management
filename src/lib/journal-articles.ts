@@ -201,10 +201,10 @@ export const articles: Article[] = [
   {
     slug: "comptes-qui-minspirent",
     n: "04",
-    tag: "Veille",
+    tag: "VEILLE\n15 MAR 2026",
     t: "LES COMPTES QUI M'INSPIRENT EN CE MOMENT.",
     excerpt:
-      "Cinq comptes Instagram qui font les choses bien — et ce qu'on peut en apprendre.",
+      "Cinq comptes Instagram qui font les choses bien et ce qu'on peut en apprendre.",
     date: "15 MAR 2026",
     read: "2 MIN DE LECTURE",
     img: workBrutalist,
@@ -259,7 +259,7 @@ export const articles: Article[] = [
     tag: "Méthode",
     t: "REFUSER UN PROJET N'EST PAS UN LUXE, C'EST UNE DISCIPLINE.",
     excerpt:
-      "Comment je décide à qui je dis non, et pourquoi c'est ce qui permet de bien faire le reste.",
+      "Comment je décide à qui je dis non et pourquoi c'est ce qui permet de bien faire le reste.",
     date: "12 AVR 2026",
     read: "1 MIN DE LECTURE",
     img: silenceStrategique,
