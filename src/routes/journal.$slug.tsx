@@ -168,7 +168,7 @@ function ArticlePage() {
               {prev.t}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
-              {prev.read} de lecture
+              {prev.read}
             </span>
           </Link>
           <Link
@@ -183,7 +183,7 @@ function ArticlePage() {
               {next.t}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
-              {next.read} de lecture
+              {next.read}
             </span>
           </Link>
         </div>
