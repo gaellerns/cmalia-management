@@ -164,39 +164,10 @@ export const articles: Article[] = [
     intro:
       "ON ME DEMANDE SOUVENT À QUOI RESSEMBLE UNE JOURNÉE QUAND ON TRAVAILLE SEULE, SANS ÉQUIPE ET SANS BUREAU PARTAGÉ. TOUT SIMPLEMENT.",
     body: [
-      { type: "h2", text: "MATIN — LENT, MAIS PAS VIDE." },
       {
         type: "p",
         text:
-          "Je commence rarement avant 9h. Un café, un petit peu de rangement, puis j'écris. C'est le meilleur moment de la journée, je le donne au travail le plus exigeant : la voix.",
-      },
-      { type: "h2", text: "MILIEU DE JOURNÉE — LA MATIÈRE." },
-      {
-        type: "p",
-        text:
-          "Vers 11h, j'ouvre les conversations clients. Pas de Slack. Des messages longs, peu nombreux, structurés. Une vraie réponse vaut mieux que dix accusés de réception. L'après-midi, c'est la production : maquettes, captions, sélections d'images, retouches.",
-      },
-      { type: "h2", text: "APRÈS-MIDI — LA BALADE." },
-      {
-        type: "p",
-        text:
-          "En milieu d'après-midi, entre deux productions, je sors mon chien, Radjah. On fait une petite randonnée et on explore un peu plus les sentiers quand il en a envie. Le fait d'habiter dans les hauteurs de Marseille aide beaucoup pour ça. Une heure minimum, sans écran, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.",
-      },
-      {
-        type: "quote",
-        text:
-          "« LE TRAVAIL CRÉATIF NE SE FAIT PAS EN RESTANT ASSIS. IL SE LIBÈRE EN MARCHANT. »",
-      },
-      { type: "h2", text: "LE SOIR — RAREMENT DU TRAVAIL." },
-      {
-        type: "p",
-        text:
-          "Je n'ai pas de notifs après 20h. Pas par discipline militante, mais seulement pour garder la tête hors de l'eau. Cela me permet de déconnecter quelques instants et de profiter des miens.",
-      },
-      {
-        type: "note",
-        text:
-          "Aucune journée ne ressemble exactement à celle-là, mais ce qui est sûr c'est qu'aucune ne contient de réunion à 9h.",
+          "MATIN — LENT, MAIS PAS VIDE.\n\nJe commence rarement avant 9h. Un café, un petit peu de rangement, puis j'écris. C'est le meilleur moment de la journée, je le donne au travail le plus exigeant : la voix.\n\nMILIEU DE JOURNÉE — LA MATIÈRE.\n\nVers 11h, j'ouvre les conversations clients. Pas de Slack. Des messages longs, peu nombreux, structurés. Une vraie réponse vaut mieux que dix accusés de réception. L'après-midi, c'est la production : maquettes, captions, sélections d'images, retouches.\n\nAPRÈS-MIDI — LA BALADE.\n\nEn milieu d'après-midi, entre deux productions, je sors mon chien, Radjah. On fait une petite randonnée et on explore un peu plus les sentiers quand il en a envie. Le fait d'habiter dans les hauteurs de Marseille aide beaucoup pour ça. Une heure minimum, sans écran, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.\n\n« LE TRAVAIL CRÉATIF NE SE FAIT PAS EN RESTANT ASSIS. IL SE LIBÈRE EN MARCHANT. »\n\nLE SOIR — RAREMENT DU TRAVAIL.\n\nJe n'ai pas de notifs après 20h. Pas par discipline militante, mais seulement pour garder la tête hors de l'eau. Cela me permet de déconnecter quelques instants et de profiter des miens.\n\nP.S.\n\nAucune journée ne ressemble exactement à celle-là, mais ce qui est sûr c'est qu'aucune ne contient de réunion à 9h.",
       },
     ],
   },
