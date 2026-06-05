@@ -1,5 +1,6 @@
 import journalHero from "@/assets/journal-hero.png";
 import silenceStrategique from "@/assets/silence-strategique.png";
+import workBrutalist from "@/assets/work-brutalist.jpg";
 import capturedImage from "@/assets/0b0b8a31-dc19-491d-b964-ad4df298d764.png";
 
 export type Block =
@@ -207,7 +208,7 @@ export const articles: Article[] = [
       "Cinq comptes Instagram qui font les choses bien et ce qu'on peut en apprendre.",
     date: "15 MAR 2026",
     read: "2 MIN DE LECTURE",
-    img: capturedImage,
+    img: workBrutalist,
     intro:
       "Je ne suis pas beaucoup de comptes. Trois cents, peut-être. Mais ceux que je garde, je les garde longtemps. Voici cinq d'entre eux, choisis pour ce qu'ils nous apprennent — pas seulement parce qu'ils sont beaux.",
     body: [
@@ -308,7 +309,7 @@ export const articles: Article[] = [
       "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
     date: "20 MAI 2026",
     read: "2 MIN DE LECTURE",
-    img: capturedImage,
+    img: workBrutalist,
     intro:
       "On me pose la question de plus en plus souvent, alors je préfère y répondre une fois clairement, plutôt que d'esquiver à chaque rendez-vous. Voici, sans posture, comment je travaille avec (et surtout sans) les outils génératifs.",
     body: [
