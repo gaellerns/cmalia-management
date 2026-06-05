@@ -161,41 +161,41 @@ export const articles: Article[] = [
     read: "1 MIN DE LECTURE",
     img: silenceStrategique,
     intro:
-      "On me demande souvent à quoi ressemble une journée quand on travaille seule, depuis Marseille, sans équipe et sans bureau partagé. Voilà, sans filtre.",
+      "ON ME DEMANDE SOUVENT À QUOI RESSEMBLE UNE JOURNÉE QUAND ON TRAVAILLE SEULE, SANS ÉQUIPE ET SANS BUREAU PARTAGÉ. TOUT SIMPLEMENT.",
     body: [
-      { type: "h2", text: "Matin — lent, mais pas vide." },
+      { type: "h2", text: "MATIN — LENT, MAIS PAS VIDE." },
       {
         type: "p",
         text:
-          "Je commence rarement avant 9h30. Café, dix minutes à regarder la lumière, puis une heure d'écriture — toujours pour un client, jamais pour moi. C'est le meilleur moment de la journée, je le donne au travail le plus exigeant : la voix.",
+          "Je commence rarement avant 9h. Un café, un petit peu de rangement, puis j'écris. C'est le meilleur moment de la journée, je le donne au travail le plus exigeant : la voix.",
       },
-      { type: "h2", text: "Milieu de journée — la matière." },
+      { type: "h2", text: "MILIEU DE JOURNÉE — LA MATIÈRE." },
       {
         type: "p",
         text:
           "Vers 11h, j'ouvre les conversations clients. Pas de Slack. Des messages longs, peu nombreux, structurés. Une vraie réponse vaut mieux que dix accusés de réception. L'après-midi, c'est la production : maquettes, captions, sélections d'images, retouches.",
       },
-      { type: "h2", text: "Fin d'après-midi — la marche." },
+      { type: "h2", text: "APRÈS-MIDI — LA BALADE." },
       {
         type: "p",
         text:
-          "Vers 17h, je sors. Toujours. Marseille aide beaucoup pour ça. Une heure debout, sans écran, sans téléphone, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.",
+          "Au milieu de l'après-midi, je sors mon chien, Radjah. On fait une petite randonnée et on explore un peu plus les sentiers quand il en a envie. Le fait d'habiter dans les hauteurs de Marseille aide beaucoup pour ça. Une heure debout, sans écran, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.",
       },
       {
         type: "quote",
         text:
-          "Le travail créatif ne se fait pas en restant assis. Il se digère en marchant.",
+          "« LE TRAVAIL CRÉATIF NE SE FAIT PAS EN RESTANT ASSIS. IL SE LIBÈRE EN MARCHANT. »",
       },
-      { type: "h2", text: "Le soir — rarement du travail." },
+      { type: "h2", text: "LE SOIR — RAREMENT DU TRAVAIL." },
       {
         type: "p",
         text:
-          "Je n'ai pas de notifs après 19h. Pas par discipline militante — par hygiène. Une marque qui me paie pour avoir un jugement clair a besoin que je dorme.",
+          "Je n'ai pas de notifs après 20h. Pas par discipline militante, mais seulement pour garder la tête hors de l'eau. Cela me permet de déconnecter quelques instants et de profiter de mon entourage.",
       },
       {
         type: "note",
         text:
-          "Aucune journée ne ressemble exactement à celle-là. Mais aucune ne contient de réunion à 9h.",
+          "Aucune journée ne ressemble exactement à celle-là, mais ce qui est sûr c'est qu'aucune ne contient de réunion à 9h.",
       },
     ],
   },
