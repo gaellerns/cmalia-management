@@ -148,8 +148,7 @@ function ArticlePage() {
 
         {/* Signature */}
         <div className="mt-20 pt-8 border-t border-white/10 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest opacity-50">
-          <span>GAËLLE · MARSEILLE</span>
-          <span>JAN 2026</span>
+          <span className="whitespace-pre-line text-right">{"GAËLLE · MARSEILLE\nJAN 2026"}</span>
         </div>
       </article>
 
@@ -161,8 +160,8 @@ function ArticlePage() {
             params={{ slug: prev.slug }}
             className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col gap-4"
           >
-            <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100">
-              ← Note précédente · {prev.tag}
+            <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
+              {`← NOTE PRÉCÉDENTE · ${prev.tag.toUpperCase()}`}
             </span>
             <span className="font-display text-2xl md:text-3xl uppercase tracking-tighter leading-[0.95]">
               {prev.t}
@@ -176,14 +175,14 @@ function ArticlePage() {
             params={{ slug: next.slug }}
             className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col gap-4 md:text-right"
           >
-            <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100">
-              Note suivante · {next.tag} →
+            <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
+              {`NOTE SUIVANTE · ${next.tag.toUpperCase()} →`}
             </span>
             <span className="font-display text-2xl md:text-3xl uppercase tracking-tighter leading-[0.95]">
               {next.t}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
-              {next.read}
+              {next.read.includes("LECTURE") ? next.read : `${next.read} DE LECTURE`}
             </span>
           </Link>
         </div>
