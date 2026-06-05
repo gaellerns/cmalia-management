@@ -100,7 +100,7 @@ export const articles: Article[] = [
     excerpt:
       "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
     date: "09 JAN 2026",
-    read: "La plupart des marques que j'accompagne arrivent avec un planning très propre et une voix très floue. On peut décrire trois mois de posts à venir sans pouvoir dire en une phrase ce que la marque défend.",
+    read: "1 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "LE CALENDRIER ÉDITORIAL EST DEVENU LA PREMIÈRE CHOSE QU'ON VEND AUX MARQUES. C'EST RASSURANT, ÇA SE MET DANS UNE NOTION, ÇA SE COCHE. ET POURTANT, C'EST PRESQUE TOUJOURS L'ÉTAPE QU'IL FAUDRAIT FAIRE EN DERNIER.",
