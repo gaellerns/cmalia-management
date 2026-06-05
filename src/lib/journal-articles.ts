@@ -310,24 +310,24 @@ export const articles: Article[] = [
     read: "2 MIN DE LECTURE",
     img: workBrutalist,
     intro:
-      "On me pose la question de plus en plus souvent, alors je préfère y répondre une fois, clairement, plutôt que d'esquiver à chaque rendez-vous. Voici, sans posture, comment je travaille avec — et surtout sans — les outils génératifs.",
+      "On me pose la question de plus en plus souvent, alors je préfère y répondre une fois clairement, plutôt que d'esquiver à chaque rendez-vous. Voici, sans posture, comment je travaille avec (et surtout sans) les outils génératifs.",
     body: [
       { type: "h2", text: "Ce que je refuse, sans exception." },
       {
         type: "p",
         text:
-          "Je n'écris pas de caption avec une IA. Je ne génère pas de « ligne éditoriale » à partir d'un prompt. Je ne livre jamais à un client un texte qu'une machine a écrit à ma place, même retouché. Ce serait mentir sur ce qu'il achète, et trahir ce que CMALIA prétend être : une voix humaine, tenue par une personne, à un endroit, à un moment.",
+          "Je ne génère pas de « ligne éditoriale » à partir d'un prompt. Je ne livre jamais à un client un texte qu'une machine a écrit à ma place. Ce serait mentir sur ce qu'il achète, et trahir ce que CMalia prétend être : une voix humaine, tenue par une personne, à un endroit, à un moment.",
       },
       {
         type: "p",
         text:
-          "Je refuse aussi les images générées pour représenter des produits, des lieux, ou des personnes. Une marque qui montre une chose qui n'existe pas perd le droit moral d'utiliser le mot « authentique » dans les cinq années qui suivent.",
+          "Je refuse aussi les contenus uniquement générés par IA pour vendre des produits ou des services. Une marque qui montre une chose qui n'existe pas perd le droit moral d'utiliser le mot « authentique » dans les cinq années qui suivent (je rigole bien sûr !).",
       },
       { type: "h2", text: "Ce que j'accepte, à condition que ça reste invisible au client." },
       {
         type: "p",
         text:
-          "J'utilise des outils pour ce qu'ils font bien : transcrire un audio, nettoyer une liste, comparer deux versions d'un même paragraphe, traduire un brouillon vite fait. Ce sont des assistants, pas des auteurs. Le résultat livré n'est jamais le leur. C'est le mien, simplement produit un peu plus vite.",
+          "J'utilise des outils pour ce qu'ils font bien : transcrire un audio, nettoyer une liste, comparer deux versions d'un même paragraphe, effectuer quelques recherches vite fait. Ce sont des assistants, pas des auteurs. Le résultat livré n'est jamais le leur. C'est le mien, simplement produit un peu plus vite.",
       },
       {
         type: "quote",
@@ -338,13 +338,13 @@ export const articles: Article[] = [
       {
         type: "p",
         text:
-          "Tenir cette position coûte du temps. Plus que ça : elle coûte des clients. Certains veulent juste du volume, vite, pas cher. Je ne suis pas en compétition avec ça, et je ne prétends pas l'être. Mais je crois — vraiment — que dans cinq ans, les marques qui auront résisté à l'industrialisation de leur voix seront celles qu'on lit encore.",
+          "Tenir cette position coûte du temps. Plus que ça : elle coûte des clients. Certains veulent juste du volume, vite, pas cher. Je ne suis pas en compétition avec ça, et je ne prétends pas l'être. Mais je crois vraiment que dans cinq ans, les marques qui auront résisté à l'industrialisation de leur voix seront celles qu'on lit encore.",
       },
       { type: "h2", text: "Et pour mes propres textes ?" },
       {
         type: "p",
         text:
-          "Ce que vous lisez sur ce site, je l'ai écrit. Phrase par phrase, à Marseille, souvent le soir. Je relis le lendemain, je coupe, je remets, je doute. C'est plus long. C'est probablement moins « optimisé ». Mais c'est moi — et c'est exactement ce que je vends.",
+          "Ce que vous lisez sur ce site, je l'ai écrit. Phrase par phrase, à Marseille, souvent le soir. Je relis le lendemain, je coupe, je remets, je doute. C'est plus long. C'est probablement moins « optimisé ». Mais c'est moi et c'est exactement ce que je vends.",
       },
       {
         type: "note",
