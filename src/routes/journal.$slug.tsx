@@ -161,10 +161,7 @@ function ArticlePage() {
             className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col gap-4"
           >
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
-              {`← NOTE PRÉCÉDENTE · ${prev.tag.toUpperCase()}`}
-            </span>
-            <span className="font-display text-2xl md:text-3xl uppercase tracking-tighter leading-[0.95]">
-              {prev.t}
+              {`← NOTE PRÉCÉDENTE · ${prev.tag.toUpperCase()}\n${prev.t}`}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
               {prev.read.includes("LECTURE") ? prev.read : `${prev.read} DE LECTURE`}
@@ -176,10 +173,7 @@ function ArticlePage() {
             className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col gap-4 md:text-right"
           >
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
-              {`NOTE SUIVANTE · ${next.tag.toUpperCase()} →`}
-            </span>
-            <span className="font-display text-2xl md:text-3xl uppercase tracking-tighter leading-[0.95]">
-              {next.t}
+              {`NOTE SUIVANTE · ${next.tag.toUpperCase()} →\n${next.t}`}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
               {next.read.includes("LECTURE") ? next.read : `${next.read} DE LECTURE`}
