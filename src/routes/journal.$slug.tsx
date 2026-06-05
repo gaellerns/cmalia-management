@@ -82,8 +82,8 @@ function renderBlock(b: Block, i: number) {
       return (
         <ul key={i} className="my-8 space-y-3 pl-0 list-none">
           {b.items.map((it, j) => (
-            <li key={j} className="flex gap-4 text-lg leading-[1.6] text-foreground/85">
-              <span className="font-mono text-[10px] uppercase tracking-widest text-accent pt-2 shrink-0">
+            <li key={j} className="flex flex-col gap-1 text-lg leading-[1.6] text-foreground/85">
+              <span className="font-mono text-[10px] uppercase tracking-widest text-accent shrink-0">
                 {String(j + 1).padStart(2, "0")}
               </span>
               <span>{it}</span>
@@ -168,7 +168,7 @@ function ArticlePage() {
               {prev.t}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
-              {prev.read} de lecture
+              {prev.read}
             </span>
           </Link>
           <Link
@@ -183,7 +183,7 @@ function ArticlePage() {
               {next.t}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
-              {next.read} de lecture
+              {next.read}
             </span>
           </Link>
         </div>

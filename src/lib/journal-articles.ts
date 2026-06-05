@@ -100,7 +100,7 @@ export const articles: Article[] = [
     excerpt:
       "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
     date: "09 JAN 2026",
-    read: "La plupart des marques que j'accompagne arrivent avec un planning très propre et une voix très floue. On peut décrire trois mois de posts à venir sans pouvoir dire en une phrase ce que la marque défend.",
+    read: "1 MIN DE LECTURE",
     img: workBrutalist,
     intro:
       "LE CALENDRIER ÉDITORIAL EST DEVENU LA PREMIÈRE CHOSE QU'ON VEND AUX MARQUES. C'EST RASSURANT, ÇA SE MET DANS UNE NOTION, ÇA SE COCHE. ET POURTANT, C'EST PRESQUE TOUJOURS L'ÉTAPE QU'IL FAUDRAIT FAIRE EN DERNIER.",
@@ -125,16 +125,16 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "01\nUne posture : d'où tu parles, à qui, et avec quelle tension.",
-          "02\nDes sujets récurrents : trois ou quatre, pas vingt.",
-          "03\nUne grammaire : ton, longueur, mots interdits, mots signature.",
-          "04\nUn refus assumé : ce que tu ne feras jamais, même si ça performe.",
+          "Une posture : d'où tu parles, à qui, et avec quelle tension.",
+          "Des sujets récurrents : trois ou quatre, pas vingt.",
+          "Une grammaire : ton, longueur, mots interdits, mots signature.",
+          "Un refus assumé : ce que tu ne feras jamais, même si ça performe.",
         ],
       },
       {
         type: "quote",
         text:
-          "« UNE LIGNE, C'EST CE QUI TE PERMET DE REFUSER UN BON SUJET PARCE QU'IL N'EST PAS LE TIEN. »",
+          "UNE LIGNE, C'EST CE QUI TE PERMET DE REFUSER UN BON SUJET PARCE QU'IL N'EST PAS LE TIEN.",
       },
       { type: "h2", text: "LE PLANNING VIENT APRÈS." },
       {
@@ -145,7 +145,7 @@ export const articles: Article[] = [
       {
         type: "note",
         text:
-          "P.S.\n\nSi ton planning te tient en laisse plutôt que de te servir, c'est probablement que la ligne en dessous est trop molle.",
+          "P.S. Si ton planning te tient en laisse plutôt que de te servir, c'est probablement que la ligne en dessous est trop molle.",
       },
     ],
   },
