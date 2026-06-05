@@ -149,7 +149,7 @@ function ArticlePage() {
         {/* Signature */}
         <div className="mt-20 pt-8 border-t border-white/10 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest opacity-50">
           <span>GAËLLE · MARSEILLE</span>
-          <span>DÉC 2025</span>
+          <span>JAN 2026</span>
         </div>
       </article>
 
@@ -168,7 +168,7 @@ function ArticlePage() {
               {prev.t}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
-              {prev.read}
+              {prev.read.includes("LECTURE") ? prev.read : `${prev.read} DE LECTURE`}
             </span>
           </Link>
           <Link
