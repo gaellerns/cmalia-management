@@ -175,12 +175,7 @@ export const articles: Article[] = [
           "Aucune journée ne ressemble exactement à celle-là, mais ce qui est sûr c'est qu'aucune ne contient de réunion à 9h.",
       },
     ],
-      {
-        type: "note",
-        text:
-          "Aucune journée ne ressemble exactement à celle-là, mais ce qui est sûr c'est qu'aucune ne contient de réunion à 9h.",
-      },
-    ],
+  },
   },
   {
     slug: "comptes-qui-minspirent",
