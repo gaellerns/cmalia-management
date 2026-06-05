@@ -2,6 +2,7 @@ import journalHero from "@/assets/journal-hero.png";
 import silenceStrategique from "@/assets/silence-strategique.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 import capturedImage from "@/assets/0b0b8a31-dc19-491d-b964-ad4df298d764.png";
+import journalDay from "@/assets/journal-day.png";
 
 export type Block =
   | { type: "p"; text: string }
@@ -159,7 +160,7 @@ export const articles: Article[] = [
       "Pas de open space, pas de daily à 9h. Comment se déroule réellement une journée seule à l'atelier.",
     date: "16 FÉV 2026",
     read: "1 MIN DE LECTURE",
-    img: silenceStrategique,
+    img: journalDay,
     intro:
       "ON ME DEMANDE SOUVENT À QUOI RESSEMBLE UNE JOURNÉE QUAND ON TRAVAILLE SEULE, SANS ÉQUIPE ET SANS BUREAU PARTAGÉ. TOUT SIMPLEMENT.",
     body: [
@@ -179,18 +180,18 @@ export const articles: Article[] = [
       {
         type: "p",
         text:
-          "Au milieu de l'après-midi, je sors mon chien, Radjah. On fait une petite randonnée et on explore un peu plus les sentiers quand il en a envie. Le fait d'habiter dans les hauteurs de Marseille aide beaucoup pour ça. Une heure debout, sans écran, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.",
+          "En milieu d'après-midi, entre deux productions, je sors mon chien, Radjah. On fait une petite randonnée et on explore un peu plus les sentiers quand il en a envie. Le fait d'habiter dans les hauteurs de Marseille aide beaucoup pour ça. Une heure minimum, sans écran, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.",
       },
       {
         type: "quote",
         text:
-          "« LE TRAVAIL CRÉATIF NE SE FAIT PAS EN RESTANT ASSIS. IL SE LIBÈRE EN MARCHANT. »",
+          "« LE TRAVAIL CRÉATIF NE SE FAIT PAS EN RESTANT ASSIS. IL SE LIBÈRE EN MARCHANT. »",
       },
       { type: "h2", text: "LE SOIR — RAREMENT DU TRAVAIL." },
       {
         type: "p",
         text:
-          "Je n'ai pas de notifs après 20h. Pas par discipline militante, mais seulement pour garder la tête hors de l'eau. Cela me permet de déconnecter quelques instants et de profiter de mon entourage.",
+          "Je n'ai pas de notifs après 20h. Pas par discipline militante, mais seulement pour garder la tête hors de l'eau. Cela me permet de déconnecter quelques instants et de profiter des miens.",
       },
       {
         type: "note",
@@ -202,7 +203,7 @@ export const articles: Article[] = [
   {
     slug: "comptes-qui-minspirent",
     n: "04",
-    tag: "VEILLE\n15 MAR 2026",
+    tag: "VEILLE →",
     t: "LES COMPTES QUI M'INSPIRENT EN CE MOMENT.",
     excerpt:
       "Cinq comptes Instagram qui font les choses bien et ce qu'on peut en apprendre.",
