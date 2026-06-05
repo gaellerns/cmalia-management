@@ -171,7 +171,6 @@ export const articles: Article[] = [
       },
     ],
   },
-  },
   {
     slug: "comptes-qui-minspirent",
     n: "04",
