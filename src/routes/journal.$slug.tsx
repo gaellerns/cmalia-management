@@ -148,7 +148,8 @@ function ArticlePage() {
 
         {/* Signature */}
         <div className="mt-20 pt-8 border-t border-white/10 flex items-center justify-between font-mono text-[10px] uppercase tracking-widest opacity-50">
-          <span className="whitespace-pre-line text-right">{"GAËLLE · MARSEILLE\nJAN 2026"}</span>
+          <span>GAËLLE · MARSEILLE</span>
+          <span>JAN 2026</span>
         </div>
       </article>
 
