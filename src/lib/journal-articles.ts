@@ -167,14 +167,10 @@ export const articles: Article[] = [
       {
         type: "p",
         text:
-          "MATIN — LENT, MAIS PAS VIDE.\n\nJe commence rarement avant 9h. Un café, un petit peu de rangement, puis j'écris. C'est le meilleur moment de la journée, je le donne au travail le plus exigeant : la voix.\n\nMILIEU DE JOURNÉE — LA MATIÈRE.\n\nVers 11h, j'ouvre les conversations clients. Pas de Slack. Des messages longs, peu nombreux, structurés. Une vraie réponse vaut mieux que dix accusés de réception. L'après-midi, c'est la production : maquettes, captions, sélections d'images, retouches.\n\nAPRÈS-MIDI — LA BALADE.\n\nEn milieu d'après-midi, entre deux productions, je sors mon chien, Radjah. On fait une petite randonnée et on explore un peu plus les sentiers quand il en a envie. Le fait d'habiter dans les hauteurs de Marseille aide beaucoup pour ça. Une heure minimum, sans écran, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.\n\n« LE TRAVAIL CRÉATIF NE SE FAIT PAS EN RESTANT ASSIS. IL SE LIBÈRE EN MARCHANT. »\n\nLE SOIR — RAREMENT DU TRAVAIL.\n\nJe n'ai pas de notifs après 20h. Pas par discipline militante, mais seulement pour garder la tête hors de l'eau. Cela me permet de déconnecter quelques instants et de profiter des miens.",
-      },
-      {
-        type: "note",
-        text:
-          "Aucune journée ne ressemble exactement à celle-là, mais ce qui est sûr c'est qu'aucune ne contient de réunion à 9h.",
+          "MATIN — LENT, MAIS PAS VIDE.\n\nJe commence rarement avant 9h. Un café, un petit peu de rangement, puis j'écris. C'est le meilleur moment de la journée, je le donne au travail le plus exigeant : la voix.\n\nMILIEU DE JOURNÉE — LA MATIÈRE.\n\nVers 11h, j'ouvre les conversations clients. Pas de Slack. Des messages longs, peu nombreux, structurés. Une vraie réponse vaut mieux que dix accusés de réception. L'après-midi, c'est la production : maquettes, captions, sélections d'images, retouches.\n\nAPRÈS-MIDI — LA BALADE.\n\nEn milieu d'après-midi, entre deux productions, je sors mon chien, Radjah. On fait une petite randonnée et on explore un peu plus les sentiers quand il en a envie. Le fait d'habiter dans les hauteurs de Marseille aide beaucoup pour ça. Une heure minimum, sans écran, c'est ce qui me permet de revenir le lendemain avec un avis tranché plutôt qu'une bouillie d'idées.\n\n« LE TRAVAIL CRÉATIF NE SE FAIT PAS EN RESTANT ASSIS. IL SE LIBÈRE EN MARCHANT. »\n\nLE SOIR — RAREMENT DU TRAVAIL.\n\nJe n'ai pas de notifs après 20h. Pas par discipline militante, mais seulement pour garder la tête hors de l'eau. Cela me permet de déconnecter quelques instants et de profiter des miens.\n\nP.S.\n\nAucune journée ne ressemble exactement à celle-là, mais ce qui est sûr c'est qu'aucune ne contient de réunion à 9h.",
       },
     ],
+  },
   },
   {
     slug: "comptes-qui-minspirent",
