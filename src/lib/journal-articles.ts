@@ -145,7 +145,7 @@ export const articles: Article[] = [
       {
         type: "note",
         text:
-          "Si ton planning te tient en laisse plutôt que de te servir, c'est probablement que la ligne en dessous est trop molle.",
+          "P.S. Si ton planning te tient en laisse plutôt que de te servir, c'est probablement que la ligne en dessous est trop molle.",
       },
     ],
   },
