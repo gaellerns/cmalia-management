@@ -102,7 +102,7 @@ export const articles: Article[] = [
       "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
     date: "09 JAN 2026",
     read: "1 MIN DE LECTURE",
-    img: capturedImage,
+    img: workBrutalist,
     intro:
       "LE CALENDRIER ÉDITORIAL EST DEVENU LA PREMIÈRE CHOSE QU'ON VEND AUX MARQUES. C'EST RASSURANT, ÇA SE MET DANS UNE NOTION, ÇA SE COCHE. ET POURTANT, C'EST PRESQUE TOUJOURS L'ÉTAPE QU'IL FAUDRAIT FAIRE EN DERNIER.",
     body: [
@@ -309,7 +309,7 @@ export const articles: Article[] = [
       "Position claire sur l'usage d'outils génératifs dans une pratique éditoriale honnête.",
     date: "20 MAI 2026",
     read: "2 MIN DE LECTURE",
-    img: workBrutalist,
+    img: capturedImage,
     intro:
       "On me pose la question de plus en plus souvent, alors je préfère y répondre une fois clairement, plutôt que d'esquiver à chaque rendez-vous. Voici, sans posture, comment je travaille avec (et surtout sans) les outils génératifs.",
     body: [
