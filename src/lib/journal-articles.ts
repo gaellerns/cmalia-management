@@ -100,23 +100,23 @@ export const articles: Article[] = [
     excerpt:
       "Le planning ne fait pas la voix. Comment construire une ligne qui survit au planning.",
     date: "09 JAN 2026",
-    read: "1 MIN DE LECTURE",
+    read: "La plupart des marques que j'accompagne arrivent avec un planning très propre et une voix très floue. On peut décrire trois mois de posts à venir sans pouvoir dire en une phrase ce que la marque défend.",
     img: workBrutalist,
     intro:
-      "Le calendrier éditorial est devenu la première chose qu'on vend aux marques. C'est rassurant, ça se met dans un Notion, ça se coche. Et pourtant, c'est presque toujours l'étape qu'il faudrait faire en dernier.",
+      "LE CALENDRIER ÉDITORIAL EST DEVENU LA PREMIÈRE CHOSE QU'ON VEND AUX MARQUES. C'EST RASSURANT, ÇA SE MET DANS UNE NOTION, ÇA SE COCHE. ET POURTANT, C'EST PRESQUE TOUJOURS L'ÉTAPE QU'IL FAUDRAIT FAIRE EN DERNIER.",
     body: [
-      { type: "h2", text: "Le calendrier, c'est l'outil. Pas la pensée." },
+      { type: "h2", text: "LE CALENDRIER, C'EST L'OUTIL. PAS LA PENSÉE." },
       {
         type: "p",
         text:
-          "Avant de savoir quand publier, il faut savoir pourquoi. Avant de savoir quoi publier, il faut savoir d'où on parle. Un calendrier éditorial sans ligne, c'est une étagère sans livres — bien rangée, parfaitement vide.",
+          "Avant de savoir quand publier, il faut savoir pourquoi. Avant de savoir quoi publier, il faut savoir d'où on parle. Un calendrier éditorial sans ligne, c'est une étagère sans livres : parfaitement vide.",
       },
       {
         type: "p",
         text:
-          "La plupart des marques que j'accompagne arrivent avec un planning très propre et une voix très floue. On peut décrire trois mois de posts à venir sans pouvoir dire en une phrase ce que la marque défend. C'est exactement à l'envers.",
+          "La plupart des marques que j'accompagne arrivent avec un planning très propre et une voix très floue. On peut décrire trois mois de posts à venir sans pouvoir dire en une phrase ce que la marque défend.",
       },
-      { type: "h2", text: "Construire une ligne, vraiment." },
+      { type: "h2", text: "CONSTRUIRE UNE LIGNE, VRAIMENT." },
       {
         type: "p",
         text:
@@ -125,27 +125,27 @@ export const articles: Article[] = [
       {
         type: "list",
         items: [
-          "Une posture : d'où tu parles, à qui, et avec quelle tension.",
-          "Des sujets récurrents : trois ou quatre, pas vingt.",
-          "Une grammaire : ton, longueur, mots interdits, mots signature.",
-          "Un refus assumé : ce que tu ne feras jamais, même si ça performe.",
+          "01\nUne posture : d'où tu parles, à qui, et avec quelle tension.",
+          "02\nDes sujets récurrents : trois ou quatre, pas vingt.",
+          "03\nUne grammaire : ton, longueur, mots interdits, mots signature.",
+          "04\nUn refus assumé : ce que tu ne feras jamais, même si ça performe.",
         ],
       },
       {
         type: "quote",
         text:
-          "Une ligne, c'est ce qui te permet de refuser un bon sujet parce qu'il n'est pas le tien.",
+          "« UNE LIGNE, C'EST CE QUI TE PERMET DE REFUSER UN BON SUJET PARCE QU'IL N'EST PAS LE TIEN. »",
       },
-      { type: "h2", text: "Le planning vient après." },
+      { type: "h2", text: "LE PLANNING VIENT APRÈS." },
       {
         type: "p",
         text:
-          "Quand la ligne est posée, le calendrier devient évident — et beaucoup plus court. On ne cherche plus quoi dire. On cherche juste quand le dire. Et souvent, on découvre qu'on n'a pas besoin de publier autant qu'on le pensait pour exister clairement.",
+          "Quand la ligne est posée, le calendrier devient évident et beaucoup plus court. On ne cherche plus quoi dire. On cherche juste quand le dire. Et souvent, on découvre qu'on n'a pas besoin de publier autant qu'on le pensait pour exister clairement.",
       },
       {
         type: "note",
         text:
-          "Si ton planning te tient en laisse plutôt que de te servir, c'est probablement que la ligne en dessous est trop molle.",
+          "P.S.\n\nSi ton planning te tient en laisse plutôt que de te servir, c'est probablement que la ligne en dessous est trop molle.",
       },
     ],
   },

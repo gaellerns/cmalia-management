@@ -242,7 +242,7 @@ export function SiteShell({
             </div>
           </div>
           <div className="mt-12 pt-6 border-t border-white/5 font-mono text-[10px] uppercase tracking-widest opacity-40 flex flex-col md:flex-row gap-2 md:gap-0 justify-between">
-            <span>© GAËLLE · MMXXVI · MARSEILLE · PARTOUT AILLEURS<br />SITE FAIT MAIN · SANS GROWTH HACK</span>
+            <span>GAËLLE · MARSEILLE<br />JAN 2026 · PARTOUT AILLEURS<br />SITE FAIT MAIN · SANS GROWTH HACK</span>
           </div>
         </footer>
       </main>
