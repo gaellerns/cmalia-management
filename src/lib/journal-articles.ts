@@ -266,19 +266,19 @@ export const articles: Article[] = [
     read: "1 MIN DE LECTURE",
     img: silenceStrategique,
     intro:
-      "On m'écrit chaque semaine. Je dis non, souvent. Pas par arrogance — par cohérence avec ce que CMALIA prétend être : un studio qui travaille avec peu, et bien.",
+      "ON M'ÉCRIT CHAQUE SEMAINE. JE DIS NON, SOUVENT. PAS PAR ARROGANCE, MAIS PAR COHÉRENCE AVEC CE QUE CMALIA PRÉTEND ÉTRE : UN STUDIO QUI TRAVAILLE AVEC PEU, ET BIEN.",
     body: [
       { type: "h2", text: "Dire oui à tout, c'est diluer tout le monde." },
       {
         type: "p",
         text:
-          "Quand un studio accepte tous les projets, il ne sert plus aucun client correctement. Le suivant paie pour le précédent. La fatigue paie pour la fatigue. À la fin, personne n'a eu le studio qu'il imaginait.",
+          "Quand un studio accepte tous les projets, il ne sert plus aucun client correctement. Le suivant paie pour le précédent. La fatigue paie pour la fatigue. À la fin, personne n'a eu le résultat qu'il imaginait.",
       },
       { type: "h2", text: "Mes trois filtres." },
       {
         type: "list",
         items: [
-          "Est-ce que je comprends la marque en moins de cinq minutes ? Si non, ce n'est pas pour moi — pas encore.",
+          "Est-ce que je comprends la marque en moins de cinq minutes ? Si non, ce n'est pas (encore) pour moi.",
           "Est-ce que je peux défendre ce qu'elle vend, devant n'importe qui, sans me forcer ? Si non, je ne peux pas écrire pour elle.",
           "Est-ce qu'il reste, dans mon agenda, l'espace mental nécessaire ? Pas le créneau. L'espace mental.",
         ],
