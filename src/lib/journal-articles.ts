@@ -3,6 +3,8 @@ import silenceStrategique from "@/assets/silence-strategique.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 import capturedImage from "@/assets/0b0b8a31-dc19-491d-b964-ad4df298d764.png";
 import journalDay from "@/assets/journal-day.png";
+import thankYouNextAsset from "@/assets/thank-you-next.png.asset.json";
+const thankYouNext = thankYouNextAsset.url;
 
 export type Block =
   | { type: "p"; text: string }
