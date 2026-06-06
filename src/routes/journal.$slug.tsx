@@ -83,7 +83,7 @@ function renderBlock(b: Block, i: number) {
         <ul key={i} className="my-8 space-y-3 pl-0 list-none">
           {b.items.map((it, j) => (
             <li key={j} className="flex flex-col gap-1 text-lg leading-[1.6] text-foreground/85">
-              <span className="font-mono text-[10px] uppercase tracking-widest text-accent shrink-0">
+              <span className="font-mono text-[10px] uppercase tracking-widest text-accent shrink-0 mb-1">
                 {String(j + 1).padStart(2, "0")}
               </span>
               <span>{it}</span>
