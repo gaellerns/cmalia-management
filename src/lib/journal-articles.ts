@@ -266,7 +266,7 @@ export const articles: Article[] = [
       "Comment je décide à qui je dis non et pourquoi c'est ce qui permet de bien faire le reste.",
     date: "12 AVR 2026",
     read: "1 MIN DE LECTURE",
-    img: silenceStrategique,
+    img: thankYouNext,
     intro:
       "ON M'ÉCRIT CHAQUE SEMAINE. JE DIS NON, SOUVENT. PAS PAR ARROGANCE, MAIS PAR COHÉRENCE AVEC CE QUE CMALIA PRÉTEND ÉTRE : UN STUDIO QUI TRAVAILLE AVEC PEU, ET BIEN.",
     body: [
