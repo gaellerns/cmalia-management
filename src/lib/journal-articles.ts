@@ -281,7 +281,7 @@ export const articles: Article[] = [
         type: "list",
         items: [
           "Est-ce que je comprends la marque en moins de cinq minutes ? Si non, ce n'est pas (encore) pour moi.",
-          "Est-ce que je peux défendre ce qu'elle vend, devant n'importe qui, sans me forcer ? Si non, je ne peux pas écrire pour elle.",
+          "Est-ce que je peux défendre ce qu'elle vend, devant n'importe qui, sans forcer ? Si non, je ne peux pas écrire pour elle.",
           "Est-ce qu'il reste, dans mon agenda, l'espace mental nécessaire ? Pas le créneau. L'espace mental.",
         ],
       },
