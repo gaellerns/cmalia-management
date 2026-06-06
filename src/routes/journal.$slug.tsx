@@ -166,7 +166,7 @@ function ArticlePage() {
             className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col gap-4"
           >
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
-              {`← NOTE PRÉCÉDENTE · ${prev.tag.toUpperCase().replace(" →", "")}${prev.slug === "comptes-qui-minspirent" ? "" : ""}\n${prev.t}`}
+              {`← NOTE PRÉCÉDENTE · ${prev.tag.toUpperCase().replace(" →", "")}\n${prev.t}`}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto whitespace-pre-line">
               {prev.read.includes("LECTURE") ? prev.read.replace(" LECTURE", "\nLECTURE") : `${prev.read}\nDE LECTURE`}
