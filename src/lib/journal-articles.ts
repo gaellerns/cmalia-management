@@ -3,6 +3,8 @@ import silenceStrategique from "@/assets/silence-strategique.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 import capturedImage from "@/assets/0b0b8a31-dc19-491d-b964-ad4df298d764.png";
 import journalDay from "@/assets/journal-day.png";
+import thankYouNextAsset from "@/assets/thank-you-next.png.asset.json";
+const thankYouNext = thankYouNextAsset.url;
 
 export type Block =
   | { type: "p"; text: string }
@@ -264,7 +266,7 @@ export const articles: Article[] = [
       "Comment je décide à qui je dis non et pourquoi c'est ce qui permet de bien faire le reste.",
     date: "12 AVR 2026",
     read: "1 MIN DE LECTURE",
-    img: silenceStrategique,
+    img: thankYouNext,
     intro:
       "ON M'ÉCRIT CHAQUE SEMAINE. JE DIS NON, SOUVENT. PAS PAR ARROGANCE, MAIS PAR COHÉRENCE AVEC CE QUE CMALIA PRÉTEND ÉTRE : UN STUDIO QUI TRAVAILLE AVEC PEU, ET BIEN.",
     body: [
