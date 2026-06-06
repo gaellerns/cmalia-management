@@ -292,7 +292,7 @@ export const articles: Article[] = [
       {
         type: "p",
         text:
-          "Je réponds toujours. Je dis pourquoi, brièvement. Je recommande, si je peux. Refuser n'est pas ghoster. C'est une forme de respect — pour la personne en face, et pour le travail qu'elle mérite.",
+          "Je réponds toujours et je dis pourquoi brièvement. Je recommande si je peux. Refuser n'est pas ghoster, c'est une forme de respect pour la personne en face et pour le travail qu'elle mérite.",
       },
       {
         type: "note",
