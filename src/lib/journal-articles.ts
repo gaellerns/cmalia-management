@@ -203,7 +203,7 @@ export const articles: Article[] = [
   {
     slug: "comptes-qui-minspirent",
     n: "04",
-    tag: "VEILLE →",
+    tag: "VEILLE",
     t: "LES COMPTES QUI M'INSPIRENT EN CE MOMENT.",
     excerpt:
       "Cinq comptes Instagram qui font les choses bien et ce qu'on peut en apprendre.",
