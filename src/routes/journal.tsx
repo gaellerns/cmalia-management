@@ -88,7 +88,7 @@ function JournalPage() {
           {rest.map((a) => (
             <Link key={a.slug} to="/journal/$slug" params={{ slug: a.slug }} className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col justify-between min-h-[400px]">
               <div className="flex flex-col gap-1 font-mono text-[10px] uppercase tracking-widest whitespace-pre-line">
-                <span className={a.slug === "comptes-qui-minspirent" ? "text-accent group-hover:text-accent-foreground mb-4" : "text-accent group-hover:text-accent-foreground"}>{a.tag.replace(" →", "")}</span>
+                <span className={a.slug === "comptes-qui-minspirent" ? "text-accent group-hover:text-accent-foreground mb-4" : "text-accent group-hover:text-accent-foreground"}>{a.tag}</span>
                 {a.slug !== "comptes-qui-minspirent" && <span className="opacity-50 group-hover:opacity-100">{a.date}</span>}
               </div>
               <div className="space-y-6 my-10">
