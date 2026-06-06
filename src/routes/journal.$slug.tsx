@@ -168,8 +168,8 @@ function ArticlePage() {
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
               {`← NOTE PRÉCÉDENTE · ${prev.tag.toUpperCase().replace(" →", "")}\n${prev.t}`}
             </span>
-            <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto whitespace-pre-line">
-              {prev.read.includes("LECTURE") ? prev.read.replace(" LECTURE", "\nLECTURE") : `${prev.read}\nDE LECTURE`}
+            <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
+              {prev.read.includes("LECTURE") ? prev.read : `${prev.read} DE LECTURE`}
             </span>
           </Link>
           <Link
@@ -180,8 +180,8 @@ function ArticlePage() {
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
               {`NOTE SUIVANTE · ${next.tag.toUpperCase().replace(" →", "")} →\n${next.t}`}
             </span>
-            <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto whitespace-pre-line">
-              {next.read.includes("LECTURE") ? next.read.replace(" LECTURE", "\nLECTURE") : `${next.read}\nDE LECTURE`}
+            <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto">
+              {next.read.includes("LECTURE") ? next.read : `${next.read} DE LECTURE`}
             </span>
           </Link>
         </div>
