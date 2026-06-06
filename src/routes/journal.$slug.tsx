@@ -118,7 +118,7 @@ function ArticlePage() {
           ← RETOUR AU JOURNAL
         </Link>
         <div className="flex flex-wrap items-center gap-6 font-mono text-[10px] uppercase tracking-widest mb-8 whitespace-pre-line">
-          <span className="text-accent">{article.tag}</span>
+          <span className="text-accent">{article.tag.replace(" →", "")}</span>
           {article.slug !== "comptes-qui-minspirent" && (
             <>
               <span className="opacity-50">{article.date === "12 DÉC 2025" ? "12 DÉCEMBRE 2025" : article.date}</span>
