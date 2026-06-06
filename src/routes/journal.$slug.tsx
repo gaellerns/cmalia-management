@@ -178,7 +178,7 @@ function ArticlePage() {
             className="bg-background p-8 group hover:bg-accent hover:text-accent-foreground transition-colors flex flex-col gap-4 md:text-right"
           >
             <span className="font-mono text-[10px] uppercase tracking-widest opacity-50 group-hover:opacity-100 whitespace-pre-line">
-              {`NOTE SUIVANTE · ${next.tag.toUpperCase().replace(" →", "")} →\n${next.t}`}
+              {`NOTE SUIVANTE · ${next.tag.toUpperCase()} →\n${next.t}`}
             </span>
             <span className="font-mono text-[10px] uppercase tracking-widest text-accent group-hover:text-accent-foreground mt-auto whitespace-pre-line">
               {next.read.includes("LECTURE") ? next.read.replace(" LECTURE", "\nLECTURE") : `${next.read}\nDE LECTURE`}
