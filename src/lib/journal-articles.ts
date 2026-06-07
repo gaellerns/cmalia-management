@@ -215,7 +215,7 @@ export const articles: Article[] = [
     intro:
       "JE NE SUIS PAS BEAUCOUP DE COMPTES, MAIS CEUX QUE JE GARDE, JE LES GARDE LONGTEMPS. VOICI CINQ D'ENTRE EUX, CHOISIS POUR CE QU'ILS NOUS APPRENNENT, PAS SEULEMENT PARCE QU'ILS SONT BEAUX.",
     body: [
-      { type: "h2", text: "01 — UNE MARQUE QUI SE TAIT SOUVENT." },
+      { type: "h2", text: "01 — UNE MARQUE QUI SE TAIT PARFOIS." },
       {
         type: "p",
         text:
