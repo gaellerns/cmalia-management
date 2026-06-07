@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { SiteShell } from "@/components/site-shell";
 import { Tilt } from "@/components/cmalia-universe";
 import { articles, getArticle, type Block } from "@/lib/journal-articles";
+import comptesCover from "@/assets/comptes-qui-minspirent.png";
 
 export const Route = createFileRoute("/journal/$slug")({
   loader: ({ params }) => {
@@ -132,7 +133,11 @@ function ArticlePage() {
       <section className="px-6 pb-16 max-w-6xl mx-auto">
         <Tilt max={3}>
           <div className="aspect-[16/9] overflow-hidden ring-1 ring-white/5">
-            <img src={article.img} alt={article.t} className="w-full h-full object-cover grayscale" />
+            {article.slug === "comptes-qui-minspirent" ? (
+              <img src={comptesCover} alt={article.t} className="w-full h-full object-contain" />
+            ) : (
+              <img src={article.img} alt={article.t} className="w-full h-full object-cover grayscale" />
+            )}
           </div>
         </Tilt>
       </section>
