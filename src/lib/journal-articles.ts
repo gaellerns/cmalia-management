@@ -209,7 +209,7 @@ export const articles: Article[] = [
     t: "LES COMPTES QUI M'INSPIRENT EN CE MOMENT.",
     excerpt:
       "Cinq comptes Instagram qui font les choses bien et ce qu'on peut en apprendre.",
-    date: "15 MAR 2026",
+    date: "20 MAR 2026",
     read: "2 MIN DE LECTURE",
     img: workBrutalist,
     intro:
