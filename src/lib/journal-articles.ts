@@ -213,47 +213,47 @@ export const articles: Article[] = [
     read: "2 MIN DE LECTURE",
     img: workBrutalist,
     intro:
-      "Je ne suis pas beaucoup de comptes. Trois cents, peut-être. Mais ceux que je garde, je les garde longtemps. Voici cinq d'entre eux, choisis pour ce qu'ils nous apprennent — pas seulement parce qu'ils sont beaux.",
+      "JE NE SUIS PAS BEAUCOUP DE COMPTES, MAIS CEUX QUE JE GARDE, JE LES GARDE LONGTEMPS. VOICI CINQ D'ENTRE EUX, CHOISIS POUR CE QU'ILS NOUS APPRENNENT, PAS SEULEMENT PARCE QU'ILS SONT BEAUX.",
     body: [
-      { type: "h2", text: "01 — Une marque qui se tait souvent." },
+      { type: "h2", text: "01 — UNE MARQUE QUI SE TAIT SOUVENT." },
       {
         type: "p",
         text:
-          "Un studio de céramique qui poste deux fois par mois, parfois moins. Chaque image est sèche, frontale, sans légende interminable. La leçon : le silence entre deux posts fait partie de la composition.",
+          "@studiofauvette\nUn studio créatif qui deux à trois fois par mois, parfois moins. Chaque publication est accompagnée d'une légende qui va droit au but.\nLa leçon : le silence entre deux posts fait partie de la composition.",
       },
-      { type: "h2", text: "02 — Un créateur qui n'explique rien." },
+      { type: "h2", text: "02 — UN CRÉATEUR QUI N'EXPLIQUE RIEN." },
       {
         type: "p",
         text:
-          "Pas de carrousel pédagogique, pas de « 5 choses à savoir ». Juste un point de vue assumé, écrit court. La leçon : on n'est pas obligé d'enseigner pour être pris au sérieux.",
+          "@agencecartel\nPas de carrousel pédagogique, pas de « 5 choses à savoir ».\nLa leçon : on n'est pas obligé d'enseigner pour être pris au sérieux.",
       },
-      { type: "h2", text: "03 — Une marque mode qui n'utilise jamais de mannequin." },
+      { type: "h2", text: "03 — UNE MARQUE À L'ESTHÉTIQUE CYBER-ORGANIQUE." },
       {
         type: "p",
         text:
-          "Que des objets, des plis, des matières. Aucun visage. Et pourtant on sait exactement à qui ça parle. La leçon : on peut construire un imaginaire fort en enlevant, pas en ajoutant.",
+          "@gentlemonster\nUne marque de mode mêlant luxe, futurisme sculptural et science-fiction.\nLa leçon : une image peut raconter une émotion ou un mystère sans directement mettre en avant le produit.",
       },
-      { type: "h2", text: "04 — Un compte qui ne joue jamais le jeu." },
+      { type: "h2", text: "04 — UN COMPTE QUI NE JOUE JAMAIS LE JEU." },
       {
         type: "p",
         text:
-          "Pas de reel, pas de trend, pas d'audio à la mode. Une grille de photos, et c'est tout. Le compte grandit lentement, mais sans rien lâcher. La leçon : refuser le format dominant est une stratégie, pas un caprice.",
+          "@annecombaz\nPas de reel, pas de trend, pas d'audio à la mode. L'envie de poster ses réalisations et ses inspirations, c'est tout. Le compte grandit lentement, mais sans rien lâcher.\nLa leçon : refuser le format dominant est une stratégie, pas un caprice.",
       },
-      { type: "h2", text: "05 — Une indépendante qui écrit comme elle parle." },
+      { type: "h2", text: "05 — UNE INDÉPENDANTE QUI ÉCRIT COMME ELLE PARLE." },
       {
         type: "p",
         text:
-          "Captions longues, ponctuation libre, parfois une faute. Elle ne corrige pas — c'est sa signature. La leçon : la voix vaut mieux que la propreté.",
+          "@desetoilesetdesroses\nCaptions longues, ponctuation libre, un feed chaleureux... : c'est sa signature.\nLa leçon : la voix vaut mieux que la propreté.",
       },
       {
         type: "quote",
         text:
-          "Suivre moins, mais suivre longtemps. C'est probablement le meilleur conseil de veille que je puisse donner.",
+          "« SUIVRE MOINS, MAIS SUIVRE LONGTEMPS. C'EST PROBABLEMENT LE MEILLEUR CONSEIL DE VEILLE QUE JE PUISSE DONNER. »",
       },
       {
         type: "note",
         text:
-          "Je ne cite pas les noms volontairement. Si je vous les donne, vous allez aller les copier. L'idée, c'est plutôt de chercher les vôtres.",
+          "P.S.\n\nL'idée, c'est quand même de chercher vos propres inspirations.",
       },
     ],
   },
