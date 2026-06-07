@@ -119,12 +119,8 @@ function ArticlePage() {
         </Link>
         <div className="flex flex-wrap items-center gap-6 font-mono text-[10px] uppercase tracking-widest mb-8 whitespace-pre-line">
           <span className="text-accent">{article.tag}</span>
-          {article.slug !== "comptes-qui-minspirent" && (
-            <>
-              <span className="opacity-50">{article.date === "12 DÉC 2025" ? "12 DÉCEMBRE 2025" : article.date}</span>
-              <span className="opacity-50">· {article.read.includes("LECTURE") ? article.read : `${article.read} DE LECTURE`}</span>
-            </>
-          )}
+          <span className="opacity-50">{article.date === "12 DÉC 2025" ? "12 DÉCEMBRE 2025" : article.date}</span>
+          <span className="opacity-50">· {article.read.includes("LECTURE") ? article.read : `${article.read} DE LECTURE`}</span>
           <span className="opacity-50">· N°{article.n}</span>
         </div>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl uppercase tracking-tighter leading-[0.9]">
