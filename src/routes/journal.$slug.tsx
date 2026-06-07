@@ -61,7 +61,7 @@ function renderBlock(b: Block, i: number) {
       );
     case "p":
       return (
-        <p key={i} className="text-lg leading-[1.7] text-foreground/85 mb-6">
+        <p key={i} className="text-lg leading-[1.7] text-foreground/85 mb-6 whitespace-pre-line">
           {b.text}
         </p>
       );
@@ -95,7 +95,7 @@ function renderBlock(b: Block, i: number) {
       return (
         <aside key={i} className="my-12 border border-white/10 p-6 md:p-8 bg-white/[0.02]">
           <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-accent mb-3">P.S.</div>
-          <p className="text-base italic text-muted-foreground leading-relaxed">{b.text}</p>
+          <p className="text-base italic text-muted-foreground leading-relaxed whitespace-pre-line">{b.text}</p>
         </aside>
       );
   }
