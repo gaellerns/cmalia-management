@@ -248,12 +248,12 @@ export const articles: Article[] = [
       {
         type: "quote",
         text:
-          "« SUIVRE MOINS, MAIS SUIVRE LONGTEMPS. C'EST PROBABLEMENT LE MEILLEUR CONSEIL DE VEILLE QUE JE PUISSE DONNER. »",
+          "SUIVRE MOINS, MAIS SUIVRE LONGTEMPS. C'EST PROBABLEMENT LE MEILLEUR CONSEIL DE VEILLE QUE JE PUISSE DONNER.",
       },
       {
         type: "note",
         text:
-          "P.S.\n\nL'idée, c'est quand même de chercher vos propres inspirations.",
+          "L'idée, c'est quand même de chercher vos propres inspirations.",
       },
     ],
   },
