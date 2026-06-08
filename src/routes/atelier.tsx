@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { SiteShell, SectionHead } from "@/components/site-shell";
 import { Tilt, Magnetic } from "@/components/cmalia-universe";
 import workCyborg from "@/assets/atelier-direction.png";
-import workBrutalist from "@/assets/work-brutalist.jpg";
+import gestionReseaux from "@/assets/gestion-reseaux-sociaux.png";
 import conseilPonctuel from "@/assets/conseil-ponctuel.jpg";
 
 export const Route = createFileRoute("/atelier")({
@@ -47,7 +47,7 @@ const services = [
       "Reporting mensuel court et qualitatif, pas vanity metrics",
     ],
     delay: "engagement 3 mois minimum",
-    img: workBrutalist,
+    img: gestionReseaux,
   },
   {
     n: "03",
