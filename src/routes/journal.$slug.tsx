@@ -130,15 +130,17 @@ function ArticlePage() {
       </section>
 
       {/* Cover */}
-      <section className="px-6 pb-16 max-w-6xl mx-auto">
+      <section className={`px-6 pb-16 mx-auto ${article.slug === "comptes-qui-minspirent" ? "max-w-3xl" : "max-w-6xl"}`}>
         <Tilt max={3}>
-          <div className="aspect-[16/9] overflow-hidden ring-1 ring-white/5">
-            {article.slug === "comptes-qui-minspirent" ? (
+          {article.slug === "comptes-qui-minspirent" ? (
+            <div className="aspect-[4/5] overflow-hidden ring-1 ring-white/5">
               <img src={comptesCover} alt={article.t} className="w-full h-full object-contain" />
-            ) : (
+            </div>
+          ) : (
+            <div className="aspect-[16/9] overflow-hidden ring-1 ring-white/5">
               <img src={article.img} alt={article.t} className="w-full h-full object-cover grayscale" />
-            )}
-          </div>
+            </div>
+          )}
         </Tilt>
       </section>
 
