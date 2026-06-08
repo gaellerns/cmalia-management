@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import workCyborg from "@/assets/home-profile-polaroids.png";
 import workBrutalist from "@/assets/work-brutalist.jpg";
+import gestionReseaux from "@/assets/gestion-reseaux-sociaux.png";
 import marseilleLandscape from "@/assets/marseille-landscape.png";
 import {
   MorphWord,
@@ -190,7 +191,7 @@ function Index() {
       n: "02",
       t: "Gestion réseaux sociaux",
       d: "Instagram, TikTok, LinkedIn, Pinterest, Facebook... tous tes réseaux, pensés ensemble. Planification, écriture, publication, réponses. Présence régulière, sans pilote automatique ni IA déguisée.",
-      img: workBrutalist,
+      img: gestionReseaux,
       tag: "Présence quotidienne",
     },
     {
