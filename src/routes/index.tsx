@@ -15,6 +15,7 @@ import {
   BrutalistBackground,
   InkSplat,
 } from "@/components/cmalia-universe";
+import { MobileMenu } from "@/components/mobile-menu";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -314,10 +315,11 @@ function Index() {
             href="#contact"
             onMouseEnter={() => setCursorLabel("on parle ?")}
             onMouseLeave={() => setCursorLabel("")}
-            className="size-12 rounded-full border border-foreground/20 flex items-center justify-center hover:bg-accent hover:border-accent hover:scale-110 transition-all duration-500 relative overflow-hidden"
+            className="hidden md:flex size-12 rounded-full border border-foreground/20 items-center justify-center hover:bg-accent hover:border-accent hover:scale-110 transition-all duration-500 relative overflow-hidden"
           >
             <span className="font-bold text-xs">→</span>
           </a>
+          <MobileMenu />
         </div>
       </nav>
 
