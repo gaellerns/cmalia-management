@@ -683,14 +683,15 @@ function Index() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-white/5">
             {[
-              { tag: "Identité", t: "Pourquoi votre marque mérite mieux qu'un calendrier éditorial." },
-              { tag: "Éditorial", t: "Le silence stratégique : poster moins, dire plus." },
-              { tag: "Coulisses", t: "Une journée typique au studio CMALIA." },
-              { tag: "Veille", t: "Les comptes qui m'inspirent en ce moment." },
+              { tag: "Identité", t: "Pourquoi votre marque mérite mieux qu'un calendrier éditorial.", slug: "au-dela-du-calendrier-editorial" },
+              { tag: "Éditorial", t: "Le silence stratégique : poster moins, dire plus.", slug: "silence-strategique" },
+              { tag: "Coulisses", t: "Une journée typique au studio CMALIA.", slug: "une-journee-au-studio" },
+              { tag: "Veille", t: "Les comptes qui m'inspirent en ce moment.", slug: "comptes-qui-minspirent" },
             ].map((a, i) => (
               <Reveal key={i} className="bg-background">
-                <a
-                  href="#"
+                <Link
+                  to="/journal/$slug"
+                  params={{ slug: a.slug }}
                   onMouseEnter={() => setCursorLabel("lire")}
                   onMouseLeave={() => setCursorLabel("")}
                   className="block p-10 group hover:bg-accent hover:text-accent-foreground transition-colors fade-up h-full"
@@ -702,9 +703,10 @@ function Index() {
                   <p className="font-display text-2xl md:text-4xl uppercase leading-[0.95] tracking-tight">
                     {a.t}
                   </p>
-                </a>
+                </Link>
               </Reveal>
             ))}
+
           </div>
         </section>
 
