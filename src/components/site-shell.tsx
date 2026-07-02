@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState, type ReactNode } from "react";
+import { MobileMenu } from "./mobile-menu";
 import marseilleLandscape from "@/assets/marseille-landscape.png";
 import {
   VinylBadge,
@@ -192,10 +193,11 @@ export function SiteShell({
             to="/contact"
             onMouseEnter={() => setCursorLabel("on parle ?")}
             onMouseLeave={() => setCursorLabel("")}
-            className="size-12 rounded-full border border-foreground/20 flex items-center justify-center hover:bg-accent hover:border-accent hover:scale-110 transition-all duration-500"
+            className="hidden md:flex size-12 rounded-full border border-foreground/20 items-center justify-center hover:bg-accent hover:border-accent hover:scale-110 transition-all duration-500"
           >
             <span className="font-bold text-xs">→</span>
           </Link>
+          <MobileMenu />
         </div>
       </nav>
 
