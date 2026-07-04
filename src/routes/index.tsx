@@ -821,15 +821,15 @@ function Index() {
               </p>
             </div>
             <div className="flex gap-8 font-mono text-[10px] uppercase tracking-widest">
-              <a href="#" className="hover:text-accent transition-colors">
+              <a href="https://instagram.com/cmalia.management" target="_blank" rel="noreferrer noopener" className="hover:text-accent transition-colors">
                 INSTAGRAM
               </a>
-              <a href="#contact" className="hover:text-accent transition-colors">
+              <Link to="/contact" className="hover:text-accent transition-colors">
                 CONTACT
-              </a>
-              <a href="#" className="hover:text-accent transition-colors">
+              </Link>
+              <Link to="/mentions-legales" className="hover:text-accent transition-colors">
                 MENTIONS LÉGALES
-              </a>
+              </Link>
             </div>
             <div className="font-mono text-[10px] opacity-40 uppercase tracking-widest tabular-nums">
               © MMXXVI · MARSEILLE · {now}

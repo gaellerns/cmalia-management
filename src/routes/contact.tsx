@@ -45,11 +45,11 @@ function ContactPage() {
       <section className="px-6 py-16 border-y border-white/10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-white/5">
           {[
-            { n: "01", t: "\nBOOK NOW", v: "CMALIA.MANAGEMENT\n@GMAIL.COM", href: "mailto:cmalia.management@gmail.com", sub: "" },
-            { n: "02", t: "INSTAGRAM", v: "CMALIA.MANAGEMENT", href: "#", sub: " ET NUL PART AILLEURS." },
-            { n: "03", t: "OU VIA CE FORMULAIRE", v: "RÉPONSE SOUS 48H", href: "#", sub: "" },
+            { n: "01", t: "\nBOOK NOW", v: "CMALIA.MANAGEMENT\n@GMAIL.COM", href: "mailto:cmalia.management@gmail.com", sub: "", external: false },
+            { n: "02", t: "INSTAGRAM", v: "CMALIA.MANAGEMENT", href: "https://instagram.com/cmalia.management", sub: " ET NUL PART AILLEURS.", external: true },
+            { n: "03", t: "OU VIA CE FORMULAIRE", v: "RÉPONSE SOUS 48H", href: "#form", sub: "", external: false },
           ].map((c) => (
-            <a key={c.n} href={c.href} className="bg-background p-10 group hover:bg-accent hover:text-accent-foreground transition-colors">
+            <a key={c.n} href={c.href} {...(c.external ? { target: "_blank", rel: "noreferrer noopener" } : {})} className="bg-background p-10 group hover:bg-accent hover:text-accent-foreground transition-colors">
               <div className="flex justify-between mb-12 font-mono text-[10px] uppercase tracking-widest">
                 <span className="opacity-50">[{c.n}]</span>
                 <span className="opacity-50 group-hover:opacity-100">{c.sub}</span>
