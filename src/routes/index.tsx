@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import workCyborg from "@/assets/home-profile-polaroids.png";
+import aboutMePolaroid from "@/assets/about-me-polaroid.png.asset.json";
 import workBrutalist from "@/assets/work-brutalist.jpg";
 import gestionReseaux from "@/assets/gestion-reseaux-sociaux.png";
 import marseilleLandscape from "@/assets/marseille-landscape.png";
@@ -479,9 +480,9 @@ function Index() {
                     onMouseLeave={() => setCursorLabel("")}
                   >
                     <img
-                      src={workCyborg}
+                      src={aboutMePolaroid.url}
                       alt="CMALIA — direction éditoriale"
-                      className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000"
+                      className="w-full h-full object-contain group-hover:scale-105 transition-all duration-1000"
                       style={{ transitionTimingFunction: "cubic-bezier(0.16,1,0.3,1)" }}
                     />
                     <div className="absolute top-4 left-4 bg-accent px-3 py-1 text-accent-foreground font-mono text-[10px] font-bold tracking-widest">
