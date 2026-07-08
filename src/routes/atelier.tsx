@@ -135,14 +135,6 @@ function AtelierPage() {
                     </div>
                     <div className="md:col-span-5 space-y-6">
                       <div className="flex items-baseline justify-between border-b border-white/10 pb-3">
-                        <span className="font-mono text-[10px] uppercase tracking-widest opacity-50">Tarif</span>
-                        {s.n === "01" || s.n === "02" || s.n === "03" ? (
-                          <Link to="/contact" className="font-display text-2xl uppercase text-accent hover:opacity-80 transition-opacity">{s.price}</Link>
-                        ) : (
-                          <span className="font-display text-2xl uppercase text-accent">{s.price}</span>
-                        )}
-                      </div>
-                      <div className="flex items-baseline justify-between border-b border-white/10 pb-3">
                         <span className="font-mono text-[10px] uppercase tracking-widest opacity-50">Délai</span>
                         <span className="font-mono text-xs uppercase">{s.delay}</span>
                       </div>
